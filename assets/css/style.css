@@ -11,8 +11,8 @@
 --------------------------------------------------------------*/
 
 * {
-    --color: #A4CB40;
-    --color-hover: #86a735;
+    --color: #CE4C37;
+    --color-hover: #cc786c;
 }
 
 body {
@@ -94,7 +94,6 @@ h6 {
     height: 80px;
     transition: all 0.5s;
     z-index: 997;
-    transition: all 0.5s;
     background: rgba(47, 50, 59, 0.9);
 }
 
@@ -104,6 +103,10 @@ h6 {
 
 #header.header-scrolled {
     background: rgba(57, 50, 59, 0.9);
+}
+
+#header .logo {
+    display: flex;
 }
 
 #header .logo h1 {
@@ -123,7 +126,7 @@ h6 {
 
 #header .logo img {
     padding: 0;
-    margin: 0;
+    margin: 0 20px 0 0;
     max-height: 40px;
 }
 
@@ -692,7 +695,7 @@ section {
     text-align: center;
     border-radius: 5px;
     margin: 4px;
-    background: #A4CB40;
+    background: var(--color);
     position: relative;
     display: inline-block;
 }
@@ -759,7 +762,7 @@ section {
 }
 
 .tool-link {
-  background-color: #A4CB40;
+  background-color: var(--color);
   border: none;
   color: white;
   padding: 12px 30px;
@@ -769,7 +772,7 @@ section {
   
 /* Darker background on mouse-over */
 .tool-link:hover {
-   background-color: #86a735;
+   background-color: var(--color-hover);
    color: white;
 }
 
@@ -897,7 +900,7 @@ section {
 }
 
 #footer p {
-    font-size: 15;
+    font-size: 15px;
     font-style: italic;
     padding: 0;
     margin: 0 0 40px 0;
