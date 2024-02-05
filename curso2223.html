@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Programación Competitiva</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/Dijkstraidos.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <div class="logo">
+                <img src="assets/img/URJC-CP.png">
+                <h1><a href="index.html">Programación Competitiva</a></h1>
+            </div>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto" href="#">Inicio</a></li>
+                    <li><a class="nav-link scrollto" href="#materials">Módulos</a></li>
+                    <li><a class="nav-link scrollto" href="#calendar">Calendario</a></li>
+                    <li><a class="nav-link scrollto" href="#faq">Preguntas frecuentes</a></li>
+					<li><a class="nav-link" href="http://urjc-cp.numa.host/" target="_blank">Plataforma Concursos<i class="bi bi-box-arrow-up-right me-1" style="margin-left: 10px;"></i></a></li>
+
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
+        <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+
+            <!-- Slide 0 -->
+            <!--<div class="carousel-item active">
+                <div class="carousel-container">
+                    <h2 class="animate__animated animate__fadeInDown">¿Cómo me puedo inscribir?</h2>
+                    <p class="animate__animated animate__fadeInUp">Muy sencillo, solo es posible alumnos de la Universidad Rey Juan Carlos y simplemente rellando el siguiente formulario, recuerda que es un curso GRATIS.</p>
+					<a href="https://forms.office.com/e/Wh3cBLnr07" class="btn-get-started animate__animated animate__fadeInUp scrollto" target="”_blank”">Inscripción</a>
+                </div>
+            </div>-->
+
+            <!-- Slide 0 -->
+            <div class="carousel-item-active">
+                <div class="carousel-container">
+                    <h2 class="animate__animated animate__fadeInDown">¿Qué encontrarás aquí?</h2>
+                    <p class="animate__animated animate__fadeInUp">Consulta todos los materiales del curso de programación competitiva.</p>
+                    <a href="#materials" class="btn-get-started animate__animated animate__fadeInUp scrollto">Ver los materiales del curso</a>
+                </div>
+            </div>
+
+            <!-- Slide 1 -->
+            <div class="carousel-item">
+                <div class="carousel-container">
+                    <h2 class="animate__animated animate__fadeInDown">Plataforma de Concursos</h2>
+                    <p class="animate__animated animate__fadeInUp">Todos los problemas que se vayan planteando durante el curso y las competiciones que se realicen se desarrollaran en la plataforma Domjudge preparada para ello. Al comienzo del curso recibirás tus credenciales.</p>
+                    <a href="http://urjc-cp.numa.host/" class="btn-get-started animate__animated animate__fadeInUp scrollto" target="”_blank”">Accede a la plataforma de concursos</a>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <div class="carousel-container">
+                    <h2 class="animate__animated animate__fadeInDown">¿Tienes dudas?</h2>
+                    <p class="animate__animated animate__fadeInUp">Resuelve tus cuestiones en la sección de preguntas frecuentes y ten todo claro para el comienzo del curso.</p>
+                    <a href="#faq" class="btn-get-started animate__animated animate__fadeInUp scrollto">Consultar las preguntas frecuentes</a>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+            </a>
+
+            <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+            </a>
+
+        </div>
+
+        <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+    </svg>
+
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+
+        <!-- ======= Materials Section ======= -->
+        <section id="materials" class="materials">
+            <div class="container">
+                <div class="section-title" data-aos="zoom-out">
+                    <h2><i class="bi bi-archive"></i></h2>
+                    <p>Módulos</p>
+                </div>
+                <ul class="nav nav-tabs row d-flex mb-5">
+                    <li class="nav-item col-3" data-aos="zoom-in">
+                        <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
+                            <i class="ri-game-fill"></i>
+                            <h4 class="d-none d-lg-block">Módulo I</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
+                            <i class="ri-fingerprint-line"></i>
+                            <h4 class="d-none d-lg-block">Módulo II</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
+                            <i class="ri-earth-fill"></i>
+                            <h4 class="d-none d-lg-block">Módulo III</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
+                            <i class="ri-cpu-fill"></i>
+                            <h4 class="d-none d-lg-block">Módulo IV</h4>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="tab-content" data-aos="fade-up">
+                    <div class="tab-pane active show" id="tab-1">
+                        <div class="row">
+                            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                                <h3>Módulo I: Introducción y Estructuras de Datos</h3>
+                                <p class="semi">
+                                    ¿Qué se verá?
+                                </p>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <ul>
+                                            <li><i class="ri-check-double-line"></i> Introducción a la Programación Competitiva</li>
+                                            <li><i class="ri-check-double-line"></i> ¿Para qué me sirve este curso de programación competitiva?</li>
+                                            <li><i class="ri-check-double-line"></i> Novedades de este año</li>
+                                            <li><i class="ri-check-double-line"></i> Estructura del curso de programación competitiva</li>
+   
+											<li><i class="ri-check-double-line"></i> ¿Cómo consigo los créditos RAC?</li>
+
+											<li><i class="ri-check-double-line"></i> Tipos de competiciones</li>
+
+											<li><i class="ri-check-double-line"></i> Tipos de problemas</li>
+
+											<li><i class="ri-check-double-line"></i> Herramientas que utilizaremos</li>
+
+										</ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <ul>
+                                            <li><i class="ri-check-double-line"></i> Complejidad en tiempo</li>
+                                            <li><i class="ri-check-double-line"></i> Estructuras de datos</li>
+                                            <li><i class="ri-check-double-line"></i> Arrays</li>
+                                            <li><i class="ri-check-double-line"></i> Strings</li>
+ 
+										  <li><i class="ri-check-double-line"></i> Vectors</li>
+										  
+										  <li><i class="ri-check-double-line"></i> Listas, pilas, colas</li>
+											
+										  <li><i class="ri-check-double-line"></i> Sets</li>	
+										  
+										  <li><i class="ri-check-double-line"></i> Maps</li>	
+										  
+										  <li><i class="ri-check-double-line"></i> Concurso introductorio</li>
+										  </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 order-1 order-lg-2 text-center">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 mb-4">
+                                        <div class="icon-box" data-aos="zoom-in-left">
+                                            <div class="icon"><i class="bi bi-briefcase"></i></div>
+                                            <h4 class="title">Diapositivas</h4>
+                                            <p>
+                                                <a class="description" href="2022-23/mod1/presentacion.pdf" target="_blank"><i class="bi bi-download"></i> Sesión 1 - Introducción</a>
+												<br>
+                                                <a class="description" href="2022-23/mod1/presentacion_ed.pdf" target="_blank"><i class="bi bi-download"></i>  Sesión 2 - Estructuras de Datos</a> 
+												<br>
+												<a class="description" href="2022-23/mod1/problemas.pdf" target="_blank"><i class="bi bi-download"></i>  Problemas Clasificatorio AdaByron URJC</a> 
+												<br>
+												<a class="description" href="2022-23/mod1/soluciones.pdf" target="_blank"><i class="bi bi-download"></i>  Soluciones Clasificatorio AdaByron URJC</a> 
+												<br>
+												<a class="description" href="https://ada-byron.es/2023/reg/madrid/locales/urjc/" target="_blank"><i class="bi bi-download"></i>  Clasificación Clasificatorio AdaByron URJC</a> 
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 mb-4">
+                                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
+                                            <div class="icon"><i class="bi bi-camera-reels"></i></div>
+                                            <h4 class="title">Grabaciones</h4>
+                                            <p>
+                                               <b>Este año no se grabará el curso.</b>
+											</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 mb-4">
+                                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
+                                            <div class="icon"><i class="bi bi-card-checklist"></i></div>
+                                            <h4 class="title">Bibliografia</h4>
+										    <p class="description">
+                                                <i class="bi bi-check2-circle">Competitive Programming 3/4</i> 
+                                                <br>
+                                                <i class="bi bi-check2-circle">Introducción a los algoritmos</i> 
+                                                <br>
+                                                <i class="bi bi-check2-circle">Guide to Competitive Programming: Learning and Improving Algorithms Through Contests</i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 mb-4">
+                                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
+                                            <div class="icon"><i class="bi bi-binoculars"></i></div>
+                                            <h4 class="title">Ejercicios</h4>
+                                            <p class="description">
+                                                <i class="bi bi-check2-circle"><a class="description" href="https://www.aceptaelreto.com/problem/statement.php?id=149" target="_blank">San Fermines (149)</a></i> 
+                                                <br>
+                                                <i class="bi bi-check2-circle"><a class="description" href="https://www.aceptaelreto.com/problem/statement.php?id=355" target="_blank">Gregorio XIII (355)</a></i> 
+                                                <br>
+                                                <i class="bi bi-check2-circle"><a class="description" href=" https://www.aceptaelreto.com/problem/statement.php?id=577" target="_blank">Cucharadas de sopa (577)</a></i>
+												
+												<br><br>
+												
+												<i class="bi bi-check2-circle"><a class="description" href="https://www.aceptaelreto.com/problem/statement.php?id=396" target="_blank">Las Partituras de la Orquesta (396)</a></i> 
+                                                <br>
+                                                <i class="bi bi-check2-circle"><a class="description" href="https://www.aceptaelreto.com/problem/statement.php?id=214" target="_blank">Abdicación de un Rey (214)</a></i> 
+                                                <br>
+                                                <i class="bi bi-check2-circle"><a class="description" href=" https://www.aceptaelreto.com/problem/statement.php?id=418" target="_blank">RENUM (418)</a></i>
+                                            </p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-6 mb-4">
+                                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="400">
+                                            <div class="icon"><i class="bi bi-trophy"></i></div>
+                                            <h4 class="title">Para aprender más</h4>
+                                            <a class="description" href="https://www.geeksforgeeks.org/" target="_blank">GeekforGeeks </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab-2">
+                        <div class="row">
+                            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                                <h3>Módulo II: Algoritmos de ordenamiento</h3>
+                                <p class="semi">
+                                    ¿Qué se verá?
+                                </p>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <ul>
+                                           <li><i class="ri-check-double-line"></i> Algoritmos de Ordenamiento</li>
+                                            <li><i class="ri-check-double-line"></i> Bubble Sort / Selection Sort</li>
+                                            <li><i class="ri-check-double-line"></i> Quicksort</li>
+                                            <li><i class="ri-check-double-line"></i> Mergesort</li>
+                                            <li><i class="ri-check-double-line"></i> Otro tipo de algoritmos de ordenamiento y búsquedas</li>
+											<li><i class="ri-check-double-line"></i> Algoritmos Voraces</li>
+											<li><i class="ri-check-double-line"></i> Búsqueda Binaria</li>
+											<li><i class="ri-check-double-line"></i> Búsqueda Ternaria</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <ul>
+                                            <li><i class="ri-check-double-line"></i> Concurso sobre Algoritmos de Ordenamiento</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 order-1 order-lg-2 text-center">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 mb-5">
+                                        <div class="icon-box" data-aos="zoom-in-left">
+                                            <div class="icon"><i class="bi bi-briefcase"></i></div>
+                                            <h4 class="title">Diapositivas</h4>
+                                            <p>
+                                                <a class="description" href="2022-23/mod2/presentacion.pdf" target="_blank"><i class="bi bi-download"></i> Sesión 1 - Algoritmos de Ordenamiento</a>
+												<br>
+												<a class="description" href="2022-23/mod2/problemas.pdf" target="_blank"><i class="bi bi-download"></i>  Problemas Entrenamiento AdaByron Madrid</a> 
+												<br>
+												<a class="description" href="2022-23/mod2/problemas-concurso.pdf" target="_blank"><i class="bi bi-download"></i>  Problemas AdaByron Madrid 2023</a> 
+												<br>
+												<a class="description" href="2022-23/mod2/soluciones-concurso.pdf" target="_blank"><i class="bi bi-download"></i>  Soluciones AdaByron Madrid 2023</a> 
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 mb-5">
+                                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
+                                            <div class="icon"><i class="bi bi-camera-reels"></i></div>
+                                            <h4 class="title">Grabaciones</h4>
+                                            <p>
+                                                No se grabará el curso.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 mb-5">
+                                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
+                                            <div class="icon"><i class="bi bi-card-checklist"></i></div>
+                                            <h4 class="title">Herramientas</h4>
+                                            <i class="bi bi-check2-circle"><a class="description" href="https://visualgo.net/en" target="_blank">Visual Algo</a></i> 
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 mb-5">
+                                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
+                                            <div class="icon"><i class="bi bi-binoculars"></i></div>
+                                            <h4 class="title">Ejercicios</h4>
+                                            <p class="description">
+                                                <i class="bi bi-check2-circle"><a class="description" href="https://www.aceptaelreto.com/problem/statement.php?id=650" target="_blank">Oferta 3x2 (650)</a></i> 
+                                                <br>
+                                                <i class="bi bi-check2-circle"><a class="description" href="https://www.aceptaelreto.com/problem/statement.php?id=194" target="_blank">Salvemos al lince ibérico (194)</a></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab-3">
+                        <div class="row">
+                            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                                <h3>Módulo III: Iniciación a problemas de Grafos</h3>
+                                <p class="semi">
+                                    ¿Qué se verá?
+                                </p>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <ul>
+                                            <li><i class="ri-check-double-line"></i> Representación</li>
+                                            <li><i class="ri-check-double-line"></i> Recorridos (BFS, DFS)</li>
+                                            <li><i class="ri-check-double-line"></i> Caminos y ciclos eulerianos y hamiltonianos</li>
+										    <li><i class="ri-check-double-line"></i> Ordenamiento Topológico</li>
+										    <li><i class="ri-check-double-line"></i> Puntos de articulación</li>
+											<li><i class="ri-check-double-line"></i> Concurso iniciación a Grafos.</li>
+                                        </ul>
+                                    </div>
+									<div class="col-lg-6">
+                                        <ul>
+                                            <li><i class="ri-check-double-line"></i> Concurso iniciación a Grafos.</li>
+                                        </ul>
+                                    </div>
+									<div class="col-lg-6">
+                                        <ul>
+                                            <li><i class="ri-check-double-line"></i> Heaps</li>
+                                            <li><i class="ri-check-double-line"></i> Floyd Warshall</li>
+                                            <li><i class="ri-check-double-line"></i> Dijkstra</li>
+										    <li><i class="ri-check-double-line"></i> Union-Find</li>
+										    <li><i class="ri-check-double-line"></i> Prim</li>
+											<li><i class="ri-check-double-line"></i> Kruskal</li>
+											<li><i class="ri-check-double-line"></i> Concurso iniciación a Grafos.</li>
+                                        </ul>
+                                    </div>
+									<div class="col-lg-6">
+                                        <ul>
+                                            <li><i class="ri-check-double-line"></i> Concurso grafos avanzados.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 order-1 order-lg-2 text-center">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 mb-5">
+                                        <div class="icon-box" data-aos="zoom-in-left">
+                                            <div class="icon"><i class="bi bi-briefcase"></i></div>
+                                            <h4 class="title">Diapositivas</h4>
+                                            <p>
+                                                <a class="description" href="https://urjc-cp.github.io/urjc-cp/2022-23/mod3/presentacion_grafos1.pdf" target="_blank"><i class="bi bi-download"></i> Sesión 1 - Grafos</a>
+												<br>
+
+						    <a class="description" href="https://urjc-cp.github.io/urjc-cp/2022-23/mod3/Problemas_Concurso_Grafos1.pdf" target="_blank"><i class="bi bi-download"></i> Problemario concurso Grafos I </a>
+						    <br>
+						    <a class="description" href="https://urjc-cp.github.io/urjc-cp/2022-23/mod3/Soluciones_Concurso_Grafos1.pdf" target="_blank"><i class="bi bi-download"></i> Soluciones concurso Grafos I </a>
+                            <br>
+                            <a class="description" href="https://urjc-cp.github.io/urjc-cp/2022-23/mod3/Clasificacion%20Concurso%20Grafos%20I.pdf" target="_blank"><i class="bi bi-download"></i> Clasificacion concurso Grafos I </a>
+                            <br>
+												<a class="description" href="2022-23/mod3/Presentacion_grafos2.pdf" target="_blank"><i class="bi bi-download"></i> Sesión 2 - Grafos Ponderados</a> <br>
+												<a class="description" href="2022-23/mod3/problemas-grafos-2.pdf" target="_blank"><i class="bi bi-download"></i> Problemario concurso Grafos II</a> <br>
+												<a class="description" href="2022-23/mod3/soluciones-concurso-grafos-2.pdf" target="_blank"><i class="bi bi-download"></i> Soluciones concurso Grafos II</a>
+												<br>
+												<a class="description" href="https://urjc-cp.github.io/urjc-cp/2022-23/mod3/clasificacion.pdf" target="_blank"><i class="bi bi-download"></i> Clasificacion concurso Grafos II </a>
+                            <br>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 mb-5">
+                                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
+                                            <div class="icon"><i class="bi bi-camera-reels"></i></div>
+                                            <h4 class="title">Grabaciones</h4>
+                                            <p>
+                                                No se grabará el curso.
+											</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 mb-5">
+                                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
+                                            <div class="icon"><i class="bi bi-card-checklist"></i></div>
+                                            <h4 class="title">Herramientas</h4>
+                                            <p class="description">
+                                                <i class="bi bi-check2-circle"><a class="description" href="https://github.com/URJC-CP/urjc-cp/tree/main/2022-23/mod3/Codigos" target="_blank">Codigos sobre grafos </a></i>
+                                                <br>
+
+
+											</p>
+                                            <!--<a class="description" href="" target="_blank"><i class="bi bi-download"></i> Herramientas utilizadas</a>-->
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 mb-5">
+                                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
+                                            <div class="icon"><i class="bi bi-binoculars"></i></div>
+                                            <h4 class="title">Ejercicios</h4>
+                                            <p class="description">
+                                                <i class="bi bi-check2-circle"><a class="description" href="https://www.aceptaelreto.com/problem/statement.php?id=319" target="_blank">La máquina calculadora (319)</a></i> 
+                                                <br>
+                                                <i class="bi bi-check2-circle"><a class="description" href="https://www.aceptaelreto.com/problem/statement.php?id=352" target="_blank">Los amigos de mis amigos son mis amigos (352)</a></i>
+												<br>
+                                                <i class="bi bi-check2-circle"><a class="description" href="https://www.aceptaelreto.com/problem/statement.php?id=537" target="_blank">Movilidad sostenible (537)</a></i>
+												<br>
+                                                <i class="bi bi-check2-circle"><a class="description" href="https://codeforces.com/problemset/problem/1020/B" target="_blank">Badge (1020B)</a></i>
+												<br>
+                                                <i class="bi bi-check2-circle"><a class="description" href="https://codeforces.com/problemset/problem/500/A" target="_blank">New Year Transportation (500A)</a></i>
+												 <br>
+                                                <i class="bi bi-check2-circle"><a class="description" href="https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=15&page=show_problem&problem=1246" target="_blank">Ordering Tasks (10305)</a></i>
+												 <br>
+                                                <i class="bi bi-check2-circle"><a class="description" href="https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=5&page=show_problem&problem=251" target="_blank">Network (315)</a></i>
+												 <br>
+                                                <i class="bi bi-check2-circle"><a class="description" href="https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1742" target="_blank">LiftHoping (10801)</a></i>
+												 <br>
+												<i class="bi bi-check2-circle"><a class="description" href="https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1927" target="_blank">Sending email (10986)</a></i>
+												 <br>
+												<i class="bi bi-check2-circle"><a class="description" href="https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2169" target="_blank">Transportation System(11228)</a></i>
+												 <br>
+												<i class="bi bi-check2-circle"><a class="description" href="https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=989" target="_blank">Audiophobia (10048)</a></i>
+
+											</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab-4">
+                        <div class="row">
+                            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                                <h3>Módulo IV: Programación Dinámica</h3>
+                                <p class="semi">
+                                    ¿Qué se verá?
+                                </p>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <ul>
+                                            <li><i class="ri-check-double-line"></i> Introducción</li>
+                                            <li><i class="ri-check-double-line"></i> Estructura</li>
+                                            <li><i class="ri-check-double-line"></i> Memoización</li>
+											<li><i class="ri-check-double-line"></i> Tipos de Programación Dinámica</li>
+											<li><i class="ri-check-double-line"></i> Ejemplos</li>
+											<li><i class="ri-check-double-line"></i> Fibonacci</li>
+											<li><i class="ri-check-double-line"></i> Contar caminos</li>
+											<li><i class="ri-check-double-line"></i> Knapsack</li>
+											<li><i class="ri-check-double-line"></i> Memoización</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <ul>
+                                            <li><i class="ri-check-double-line"></i> Concurso final.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 order-1 order-lg-2 text-center">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 mb-5">
+                                        <div class="icon-box" data-aos="zoom-in-left">
+                                            <div class="icon"><i class="bi bi-briefcase"></i></div>
+                                            <h4 class="title">Diapositivas</h4>
+                                            <p>
+                                                <a class="description" href="2022-23/mod4/presentacion_DP.pdf" target="_blank"><i class="bi bi-download"></i> Sesión 1 - Programación dinámica</a><br>
+												<a class="description" href="2022-23/mod4/problemas.pdf" target="_blank"><i class="bi bi-download"></i> Problemas Concurso Final</a><br>
+												<a class="description" href="2022-23/mod4/soluciones.pdf" target="_blank"><i class="bi bi-download"></i> Soluciones Concurso Final</a><br>
+												<a class="description" href="2022-23/mod4/clasificacion.pdf" target="_blank"><i class="bi bi-download"></i> Clasificación Concurso Final</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 mb-5">
+                                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
+                                            <div class="icon"><i class="bi bi-camera-reels"></i></div>
+                                            <h4 class="title">Grabaciones</h4>
+                                            <p>
+                                                No se grabará el curso.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 mb-5">
+                                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
+                                            <div class="icon"><i class="bi bi-card-checklist"></i></div>
+                                            <h4 class="title">Herramientas</h4>
+                                            <!--<a class="description" href="" target="_blank"><i class="bi bi-download"></i> </a>-->
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 mb-5">
+                                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
+                                            <div class="icon"><i class="bi bi-binoculars"></i></div>
+                                            <h4 class="title">Ejercicios</h4>
+                                            <p class="description">
+												<i class="bi bi-check2-circle"><a class="description" href="https://www.aceptaelreto.com/problem/statement.php?id=251&cat=31" target="_blank">Parkímetros (AER 251)</a></i> 
+                                                <br>
+												<i class="bi bi-check2-circle"><a class="description" href="https://www.aceptaelreto.com/problem/statement.php?id=606&cat=31" target="_blank">El precio de la gasolina (AER 606)</a></i> 
+                                                <br>
+												<i class="bi bi-check2-circle"><a class="description" href="https://www.aceptaelreto.com/problem/statement.php?id=353&cat=31" target="_blank">Cazatesoros (AER 353)</a></i> 
+                                                <br>
+												<i class="bi bi-check2-circle"><a class="description" href="https://www.aceptaelreto.com/problem/statement.php?id=603&cat=31" target="_blank">El carpintero Ebanisto (AER 603)</a></i> 
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-6 mb-4">
+                                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="400">
+                                            <div class="icon"><i class='bi bi-file-earmark-arrow-down'></i></div>
+                                            <h4 class="title">Recursos</h4>
+                                            <!--<a class="description" href="" target="_blank"><i class="bi bi-file-earmark-binary"></i> </a>
+                                            <br>
+                                            <a class="description" href="" target="_blank"><i class="bi bi-file-earmark-binary"></i> </a>-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Materials Section -->
+
+        <!-- ======= Calendar Section ======= -->
+        <section id="calendar" class="calendar">
+            <div class="container">
+
+                <div class="section-title" data-aos="zoom-out" style="padding-bottom: 0;">
+                    <h2><i class="bi bi-calendar-day-fill"></i></h2>
+                    <p>Calendario</p>
+                </div>
+
+                <div class="row" data-aos="zoom-out">
+				<p>Horario de 17:00 a 19:00, puedes observar el Aula y contenido de cada día pulsando encima de cada una de las fechas.</p>
+                    <div class="col-lg-3 text-center text-lg-start" style="padding-top: 40px;">
+                        <h3>FEBRERO</h3>
+                        <div class="row" data-aos="zoom-out">
+                            <div class="col-lg-2 days">
+                                <h4>3</h4>
+                                <span class="tooltiptext">Introducción<br><strong>Aulario II</strong>: 001</span>
+                            </div>
+						   <div class="col-lg-2 days">
+                                <h4>10</h4>
+                                <span class="tooltiptext">Módulo I<br><strong>Aulario II</strong>: 001</span>
+                            </div>
+                            <div class="col-lg-2 days">
+                                <h4>24</h4>
+                                <span class="tooltiptext">Concurso Módulo I<br><strong>Laboratorios III</strong>: 109 y 111</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 text-center text-lg-start" style="padding-top: 40px;">
+                        <h3>MARZO</h3>
+                        <div class="row" data-aos="zoom-out">
+                            <div class="col-lg-2 days">
+                                <h4>3</h4>
+                                <span class="tooltiptext">Módulo II<br><strong>Aulario II</strong>: 001</span>
+                            </div>
+                            <div class="col-lg-2 days">
+                                <h4>10</h4>
+                                <span class="tooltiptext">Concurso Módulo II<br><strong>Laboratorios III</strong>: 109 y 111</span>
+                            </div>
+							<div class="col-lg-2 days">
+                                <h4>17</h4>
+                                <span class="tooltiptext">Módulo III<br><strong>Aulario II</strong>: 001</span>
+                            </div>
+						   <div class="col-lg-2 days">
+                                <h4>24</h4>
+                                <span class="tooltiptext">Concurso Módulo III<br><strong>Laboratorios III</strong>: 108 y 111</span>
+                            </div>
+                            <div class="col-lg-2 days">
+                                <h4>31</h4>
+                                <span class="tooltiptext">Módulo III<br><strong>Aulario II</strong>: 001</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 text-center text-lg-start" style="padding-top: 40px;">
+                        <h3>ABRIL</h3>
+                        <div class="row" data-aos="zoom-out">
+                            <div class="col-lg-2 days">
+                                <h4>14</h4>
+                                <span class="tooltiptext">Concurso Módulo III<br><strong>Laboratorios III</strong>: 109 y 111</span>
+                            </div>
+                            <div class="col-lg-2 days">
+                                <h4>21</h4>
+                                <span class="tooltiptext">Módulo IV<br><strong>Aulario II</strong>: 001</span>
+                            </div>
+                            <div class="col-lg-2 days">
+                                <h4>28</h4>
+                                <span class="tooltiptext">Concurso final<br><strong>Laboratorios III</strong>: 109 y 111</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Calendar Section -->
+
+        <!-- ======= Tools Section ======= -->
+
+        <section id="tools" class="tools">
+            <div class="container">
+
+                <div class="section-title" data-aos="zoom-out">
+                    <h2><i class="bi bi-tools"></i></h2>
+                    <p>Herramientas necesarias</p>
+                </div>
+                <div data-aos="zoom-out">
+                    <p>Es recomendable tener instalado un <strong>entorno de desarrollo</strong> para el <strong>lenguaje de programación</strong> que se desee utilizar. El lenguaje más utilizado en programación competitiva debido a su velocidad es <strong>C++</strong>, no obstante de los mejores equipos históricos de la universidad mucha gente usa <strong>Java</strong>.</p>
+                    <p>Para los concursos, podréis utilizar los entornos de desarrollo que tenéis en el entorno virtual, pero para practicar en casa no.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- End Tools Section -->
+
+		<!-- ======= Inscripcion Section ======= -->
+		<!--
+        <section id="inscripcion" class="tools">
+            <div class="container">
+
+                <div class="section-title" data-aos="zoom-out">
+                    <h2><i class="bi bi-envelope"></i></h2>
+                    <p>¿Cómo me inscribo?</p>
+                </div>
+                <div data-aos="zoom-out">
+                    <p>La inscripción está disponible para alumnos de la <b>Universidad Rey Juan Carlos</b>, es <b>gratuita</b> y se debe realizar desde el formulario que puedes llegar desde el siguiente botón.</p>
+
+                </div>
+
+                <div class="row" data-aos="zoom-out">
+                    <div class="col-lg-12 tool-btn-container text-center">
+                        <a class="tool-link" target="_blank" href="https://forms.office.com/r/GDD6XACmgY"><i class="bi bi-brush"> </i>Inscripción</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+		-->
+        <!-- End Inscripcion Section -->
+
+        <!-- ======= Cta Section ======= -->
+        <section id="cta" class="cta">
+            <div class="container">
+
+                <div class="row" data-aos="zoom-out">
+                    <div class="col-lg-9 text-center text-lg-start">
+                        <div class="section-title" data-aos="zoom-out">
+                            <h2><i class="bi bi-search"></i></h2>
+                            <p>¿Dónde encontrarnos?</p>
+                        </div>
+                        <p>Tenemos dos grupos de Telegram para todos los asistentes. Uno pertenece al grupo de programación competitiva y otro a la asociación de Dijkstraidos. En ambos podeis consultar las dudas que tengáis y ayudaros mutuamente, junto con los profesores. En el grupo de la asociación además podrás disfrutar de una comunidad y organizar diferentes actividades ¿A qué esperas para unirte? ¡Creemos comunidad!</p>
+                    </div>
+                    <div class="col-lg-3 cta-btn-container text-center">
+						<a class="align-middle" style="font-size: 20px; color: #3390EC;" href="https://t.me/+UdgFSAXD7kRB22Sb">URJC-CP <img src="assets/img/telegram.svg" width="70" alt=""></a>
+						<a class="align-middle" style="font-size: 20px; color: #3390EC;" href="https://t.me/+_s5FWOeCf2c5NmJk">Dijkstraidos <img src="assets/img/telegram.svg" width="70" alt=""></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- End Cta Section -->
+
+        <!-- ======= F.A.Q Section ======= -->
+        <section id="faq" class="faq">
+            <div class="container">
+
+                <div class="section-title" data-aos="zoom-out">
+                    <h2><i class="bi bi-question-circle"></i></h2>
+                    <p>Preguntas frecuentes</p>
+                </div>
+
+                <ul class="faq-list" data-aos="zoom-out">
+
+                    <li>
+                        <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">¿Qué es la programación competitiva?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                        <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+                            <p>
+                                Son competencias donde se mide las habilidades de programación y algoritmia de los participantes para resolver un conjunto de problemas lógicos y matemáticos.
+                            </p>
+							<p>
+								Muchas empresas realizan este tipo de competiciones en sus entrevistas de trabajo (Amazon, Google, Facebook, etc). Los participantes en programacióm competitiva tienen alguna ventaja al conocerlo de antes.
+							</p>
+                        </div>
+                    </li>
+					
+					<li>
+                        <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">¿Necesito previamente conocer un lenguaje de programación?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                        <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+                            <p>
+                                Es recomendable pero no necesario, el curso se aborda desde cero explicando los conceptos en los lenguajes de C++, Java y Python.
+                            </p>
+                        </div>
+                    </li>
+					
+					<li>
+                        <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">¿En que lenguaje se da el curso?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                        <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+                            <p>
+                                El curso aborda la mayoría de algoritmos en pseudocódigo y se facilitan los códigos en diversos lenguajes como Java, C++ o Python. No está centrado en un solo lenguaje.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">¿Puedo asistir al curso si no tengo conocimientos?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                        <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+                            <p>
+                                ¡Claro que sí! En este curso abordaremos los diferentes conceptos y módulos desde un nivel introductorio, sin dejar de lado a aquellos asistentes más aventajados. Lo único necesario son ganas de aprender y de compartir el conocimiento con los demás.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">¿Cuándo y dónde se desarrolla el curso?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                        <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+                            <p>
+                                El curso se impartirá los <strong>viernes de 17:00 a 19:00</strong> presencial (previa inscripción).
+                            </p>
+                            <p>
+                                El aula en el que se desarrolle dependerá del número de asistentes inscritos y la disponibilidad de la Universidad. Lo iremos actualizando en el calendario que puedes encontrar más arriba.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">¿Qué material necesito para seguir las clases?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                        <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+                            <p>
+                                Revisa el apartado de Materiales necesarios para traer preparado todo lo imprescindible para clase. Si tienes alguna problema, no dudes en preguntarnos por los grupos de Telegram.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">¿Se otorgan créditos RAC por asistir?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                        <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+                            <p>
+                                Sí, el curso tiene una duración de 24 horas repartidas en clases de 2 horas a la semana. Esto equivale a 1.2 créditos RAC reconocidos por la Universidad para aquellos asistentes que <b>acudan y participen activamente</b> en las sesiones.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div data-bs-toggle="collapse" href="#faq7" class="collapsed question">¿Quedarán grabadas las clases?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                        <div id="faq7" class="collapse" data-bs-parent=".faq-list">
+                            <p>
+                                No se grabará el curso.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div data-bs-toggle="collapse" href="#faq9" class="collapsed question">¿Qué material o plataformas recomendáis para practicar?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                        <div id="faq9" class="collapse" data-bs-parent=".faq-list">
+                            <p>
+                                Si quieres ir adentrándote en el mundillo y practicando con algunos problemas, puedes empezar con <a href="https://www.aceptaelreto.com//">Acepta el Reto</a> o con <a href="https://onlinejudge.org/">OnlineJudge</a>. También puede ayudarte toda la información de <a href="https://isaaclo97.github.io/programacion.html">la web personal de uno de los entrenadores</a>. <div class=""></div>
+                            </p>
+                            <p>
+                                Si tu nivel es más avanzado, ¿te atreverás con los retos de <a href="https://codeforces.com/">Codeforces</a>?
+								<a href="swerc.html"></a>
+                            </p>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+        </section>
+        <!-- End F.A.Q Section -->
+
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+            <h3>Programación Competitiva</h3>
+            <p>Realizado por alumnos de la Escuela Técnica Superior de Ingeniería Informática junto al grupo <a href="https://grafo.etsii.urjc.es/" target="_blank">GRAFO</a> de la URJC</p>
+            <a href="https://t.me/+UdgFSAXD7kRB22Sb" class="">URJC-CP <img src="assets/img/telegram.svg" width="30" alt=""></a>
+			<a href="https://t.me/+_s5FWOeCf2c5NmJk" class="">Dijkstraidos <img src="assets/img/telegram.svg" width="30" alt=""></a>
+
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
