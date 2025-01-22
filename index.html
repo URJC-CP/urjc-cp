@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Programación Competitiva - SWERC 2024/25</title>
+    <title>Programación Competitiva</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -43,17 +43,23 @@
             </div>
 
             <nav id="navbar" class="navbar">
-				<ul>
+                <ul>
                     <li><a class="nav-link scrollto" href="#">Inicio</a></li>
                     <li><a class="nav-link scrollto" href="#materials">Módulos</a></li>
                     <li><a class="nav-link scrollto" href="#calendar">Calendario</a></li>
-                    <li><a class="nav-link scrollto" href="#faq">Preguntas frecuentes</a></li>
-					<li><a class="nav-link scrollto" href="curso2223.html">Curso 2022/23 GRATIS</a></li>
-					<li><a class="nav-link" href="http://urjc-cp.numa.host/">Plataforma Concursos<i class="bi bi-box-arrow-up-right me-1" style="margin-left: 10px;"></i></a></li>
+                    <li><a class="nav-link scrollto" href="#faq">FAQ</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Archivo
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li class="pe-3 ps-2"><a class="dropdown-item" href="curso2223.html">Curso 22/23</a></li>
+                        </ul>
+                      </li>
+					<li><a class="nav-link" href="https://judge.numa.host/" target="_blank">Plataforma Concursos<i class="bi bi-box-arrow-up-right me-1" style="margin-left: 10px;"></i></a></li>
 
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
-
             </nav>
             <!-- .navbar -->
 
@@ -65,14 +71,58 @@
     <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
         <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
 
-            <!-- Slide 0 -->
+            <!-- Slide 1 -->
             <div class="carousel-item active">
                 <div class="carousel-container">
-                    <h2 class="animate__animated animate__fadeInDown">Concursos Programación Competitiva 2024</h2>
-					<a href="clasificacion.html" class="btn-get-started animate__animated animate__fadeInUp scrollto">Clasificación Concursos</a>
-					<a href="swerc.html" class="btn-get-started animate__animated animate__fadeInUp scrollto">Clasificación SWERC</a>
+                    <h2 class="animate__animated animate__fadeInDown">¿Cómo me puedo inscribir?</h2>
+                    <p class="animate__animated animate__fadeInUp">Muy sencillo, solo es posible alumnos de la Universidad Rey Juan Carlos y simplemente rellando el siguiente formulario, recuerda que es un curso GRATIS.</p>
+					<a href="https://forms.office.com/e/13eFkWqGRZ" class="btn-get-started animate__animated animate__fadeInUp scrollto" target="”_blank”">Inscripción</a>
                 </div>
             </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <div class="carousel-container">
+                    <h2 class="animate__animated animate__fadeInDown">¿Qué encontrarás aquí?</h2>
+                    <p class="animate__animated animate__fadeInUp">Consulta todos los materiales del curso de programación competitiva.</p>
+                    <a href="#materials" class="btn-get-started animate__animated animate__fadeInUp scrollto">Ver los materiales del curso</a>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <div class="carousel-container">
+                    <h2 class="animate__animated animate__fadeInDown">Plataforma de Concursos</h2>
+                    <p class="animate__animated animate__fadeInUp">Todos los problemas que se vayan planteando durante el curso y las competiciones que se realicen se desarrollaran en la plataforma Domjudge preparada para ello. Al comienzo del curso recibirás tus credenciales.</p>
+                    <a href="https://judge.numa.host/" class="btn-get-started animate__animated animate__fadeInUp scrollto" target="”_blank”">Accede a la plataforma de concursos</a>
+                </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="carousel-item">
+                <div class="carousel-container">
+                    <h2 class="animate__animated animate__fadeInDown">Clasificación SWERC 25/26</h2>
+                    <p class="animate__animated animate__fadeInUp">Consulta la clasificación actual para el concurso regional del sudoeste europeo en el curso 2025/2026.</p>
+                    <a href="swerc.html" class="btn-get-started animate__animated animate__fadeInUp scrollto">Clasificación SWERC</a>
+                </div>
+            </div>
+
+            <!-- Slide 5 -->
+            <div class="carousel-item">
+                <div class="carousel-container">
+                    <h2 class="animate__animated animate__fadeInDown">¿Tienes dudas?</h2>
+                    <p class="animate__animated animate__fadeInUp">Resuelve tus cuestiones en la sección de preguntas frecuentes y ten todo claro para el comienzo del curso.</p>
+                    <a href="#faq" class="btn-get-started animate__animated animate__fadeInUp scrollto">Consultar las preguntas frecuentes</a>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+            </a>
+
+            <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+            </a>
 
         </div>
 
@@ -95,25 +145,8 @@
     <!-- End Hero -->
 
     <main id="main">
-	
-	    <style>
-        table {
-            border-collapse: collapse;
-            width: 100%;
-        }
 
-        th, td {
-            border: 1px solid #dddddd;
-            text-align: left;
-            padding: 8px;
-        }
-
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
-
- <!-- ======= Materials Section ======= -->
+        <!-- ======= Materials Section ======= -->
         <section id="materials" class="materials">
             <div class="container">
                 <div class="section-title" data-aos="zoom-out">
@@ -122,21 +155,27 @@
                 </div>
                 <ul class="nav nav-tabs row d-flex mb-5">
                     <li class="nav-item col-3" data-aos="zoom-in">
-                        <a class="nav-link" data-bs-toggle="tab" href="#tab-1">
-                            <i class="ri-game-fill"></i>
-                            <h4 class="d-none d-lg-block">Concurso I</h4>
+                        <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
+                            <i class="ri-stack-fill"></i>
+                            <h4 class="d-none d-lg-block">Módulo I</h4>
                         </a>
                     </li>
                     <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
                         <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
-                            <i class="ri-fingerprint-line"></i>
-                            <h4 class="d-none d-lg-block">Concurso II</h4>
+                            <i class="ri-copper-coin-fill"></i>
+                            <h4 class="d-none d-lg-block">Módulo II</h4>
                         </a>
                     </li>
                     <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
-                        <a class="nav-link active show" data-bs-toggle="tab" href="#tab-3">
-                            <i class="ri-earth-fill"></i>
-                            <h4 class="d-none d-lg-block">Concurso III</h4>
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
+                            <i class="ri-shape-line"></i>
+                            <h4 class="d-none d-lg-block">Módulo III</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
+                            <i class="ri-cpu-fill"></i>
+                            <h4 class="d-none d-lg-block">Módulo IV</h4>
                         </a>
                     </li>
                 </ul>
@@ -145,52 +184,97 @@
                     <div class="tab-pane active show" id="tab-1">
                         <div class="row">
                             <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                                <h3>Concurso I: Introducción y Estructuras de Datos</h3>
+                                <h3>Módulo I: Introducción y Estructuras de Datos</h3>
                                 <p class="semi">
                                     ¿Qué se verá?
                                 </p>
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <ul>
-                                            <li><i class="ri-check-double-line"></i> Complejidad en tiempo</li>
-                                            <li><i class="ri-check-double-line"></i> Estructuras de datos</li>
-                                            <li><i class="ri-check-double-line"></i> Arrays</li>
-                                            <li><i class="ri-check-double-line"></i> Strings</li>
-										  </ul>
+                                            <li><i class="ri-check-double-line"></i> Introducción a la Programación Competitiva</li>
+                                            <li><i class="ri-check-double-line"></i> Estructura del curso</li>
+											<!-- <li><i class="ri-check-double-line"></i> ¿Cómo consigo los créditos RAC?</li> -->
+											<li><i class="ri-check-double-line"></i> Tipos de problemas y competiciones</li>
+                                            <hr>
+                                            <li><i class="ri-check-double-line"></i> Novedades de este año y herramientas que utilizaremos</li>
+											<li><i class="ri-check-double-line"></i> ¿Qué es un juez? ¿Cómo funciona?</li>
+											<li><i class="ri-check-double-line"></i> Primeros concursos</li>
+										</ul>
                                     </div>
-									<div class="col-lg-6">
+                                    <div class="col-lg-6">
                                         <ul>
-										    <li><i class="ri-check-double-line"></i> Vectors</li>
-										    <li><i class="ri-check-double-line"></i> Listas, pilas, colas</li>
-										    <li><i class="ri-check-double-line"></i> Sets</li>	
-										    <li><i class="ri-check-double-line"></i> Maps</li>	
+                                            <li><i class="ri-check-double-line"></i> Complejidad en tiempo</li>
+                                            <li><i class="ri-check-double-line"></i> Arrays, Vectors</li>
+                                            <li><i class="ri-check-double-line"></i> Strings</li>
+                                            <li><i class="ri-check-double-line"></i> Listas, Pilas, Colas</li>
+                                            <hr>
+                                            <li><i class="ri-check-double-line"></i> Conjuntos</li>
+                                            <li><i class="ri-check-double-line"></i> Mapas</li>
+                                            <li><i class="ri-check-double-line"></i> Árboles</li>
 										  </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 order-1 order-lg-2 text-left">
+                            <div class="col-lg-6 order-1 order-lg-2 text-center">
                                 <div class="row">
-                                    <div class="col-lg-12 col-md-12 mb-6">
+                                    <div class="col-lg-6 col-md-6 mb-4">
                                         <div class="icon-box" data-aos="zoom-in-left">
                                             <div class="icon"><i class="bi bi-briefcase"></i></div>
-                                            <h4 class="title">Problemas</h4>
+                                            <h4 class="title">Diapositivas</h4>
                                             <p>
-												<a class="description" href="./2023-24/Concurso-1-Estructuras-de-Datos.pdf" target="_blank"><i class="bi bi-download"></i>  Problemas</a> 
-												<br>
-												<a class="description" href="./2023-24/Soluciones-Concurso-1-Estructuras-de-Datos.pdf" target="_blank"><i class="bi bi-download"></i>  Soluciones</a> 
-												<br>
-
+                                                <a class="description disabled-link" href="" target="_blank"><i class="bi bi-download"></i> Sesión 1 - Introducción [Próximamente]</a>
+                                                <hr>
+                                                <a class="description disabled-link" href="" target="_blank"><i class="bi bi-download"></i> Sesión 2 - Estructuras de Datos I [Próximamente]</a> 
+                                                <br>
+                                                <a class="description disabled-link" href="" target="_blank"><i class="bi bi-download"></i> Sesión 2 - Estructuras de Datos II [Próximamente]</a> 
                                             </p>
                                         </div>
                                     </div>
-									
-                                    <div class="col-lg-12 col-md-12 mb-6" style="margin-top: 5%">
+                                    <div class="col-lg-6 col-md-6 mb-4">
+                                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
+                                            <div class="icon"><i class="bi bi-camera-reels"></i></div>
+                                            <h4 class="title">Concursos</h4>
+                                            <p>
+												<a class="description disabled-link" href="" target="_blank"><i class="bi bi-download"></i> Problemas Introducción [Próximamente]</a> 
+												<br>
+												<a class="description disabled-link" href="" target="_blank"><i class="bi bi-download"></i> Soluciones Introducción [Próximamente]</a> 
+												<br>
+												<a class="description disabled-link" href="" target="_blank"><i class="bi bi-download"></i> Clasificación Introducción [Próximamente]</a> 
+                                                <hr>
+												<a class="description disabled-link" href="" target="_blank"><i class="bi bi-download"></i> Problemas ED [Próximamente]</a> 
+												<br>
+												<a class="description disabled-link" href="" target="_blank"><i class="bi bi-download"></i> Soluciones ED [Próximamente]</a> 
+												<br>
+												<a class="description disabled-link" href="" target="_blank"><i class="bi bi-download"></i> Clasificación ED [Próximamente]</a> 
+											</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 mb-4">
                                         <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
                                             <div class="icon"><i class="bi bi-binoculars"></i></div>
-                                            <h4 class="title">Inscripción</h4>
+                                            <h4 class="title">Ejercicios</h4>
                                             <p class="description">
-                                                <i class="bi bi-check2-circle"><a class="description" href="https://forms.office.com/e/PM3gmyrs0V" target="_blank">Formulario</a></i> 
+                                                <!-- <i class="bi bi-check2-circle"> <a class="description" href="" target="_blank"></a></i> 
+                                                <br>
+                                                <i class="bi bi-check2-circle"> <a class="description" href="" target="_blank"></a></i> 
+                                                <br>
+                                                <i class="bi bi-check2-circle"> <a class="description" href="" target="_blank"></a></i> -->
                                             </p>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 mb-4">
+                                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
+                                            <div class="icon"><i class="bi bi-card-checklist"></i></div>
+                                            <h4 class="title">Recursos</h4>
+										    <p class="description">
+                                                <i class="bi bi-check2-circle"> Competitive Programming 3/4</i> 
+                                                <br>
+                                                <i class="bi bi-check2-circle"> Introducción a los algoritmos</i> 
+                                                <br>
+                                                <i class="bi bi-check2-circle"> Guide to Competitive Programming: Learning and Improving Algorithms Through Contests</i>
                                             </p>
                                         </div>
                                     </div>
@@ -201,42 +285,67 @@
                     <div class="tab-pane" id="tab-2">
                         <div class="row">
                             <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                                <h3>Concurso II: Clasificatorio AdaByron</h3>
+                                <h3>Módulo II: Algoritmia básica</h3>
                                 <p class="semi">
                                     ¿Qué se verá?
                                 </p>
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <ul>
-                                           <li><i class="ri-check-double-line"></i> Concurso sobre todas las temáticas</li>
-										   <li><i class="ri-check-double-line"></i> Concurso individual o por equipos</li>
+                                            <li><i class="ri-check-double-line"></i> Algoritmos de Ordenamiento</li>
+                                            <li><i class="ri-check-double-line"></i> Algoritmos de Búsqueda</li>
+                                            <li><i class="ri-check-double-line"></i> Algoritmos Voraces</li>
+                                            <li><i class="ri-check-double-line"></i> Ventana deslizante</li>
+                                            <li><i class="ri-check-double-line"></i> Otras estrategias</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-							<div class="col-lg-6 order-1 order-lg-2 text-left">
+                            <div class="col-lg-6 order-1 order-lg-2 text-center">
                                 <div class="row">
-                                    <div class="col-lg-12 col-md-12 mb-6">
+                                    <div class="col-lg-6 col-md-6 mb-4">
                                         <div class="icon-box" data-aos="zoom-in-left">
                                             <div class="icon"><i class="bi bi-briefcase"></i></div>
-                                            <h4 class="title">Problemas</h4>
+                                            <h4 class="title">Diapositivas</h4>
                                             <p>
-												<!--<a class="description" href="" target="_blank"><i class="bi bi-download"></i>  Problemas</a> 
-												<br>
-												<a class="description" href="" target="_blank"><i class="bi bi-download"></i>  Soluciones</a> 
-												<br>-->
-
+                                                <a class="description disabled-link" href="" target="_blank"><i class="bi bi-download"></i> Sesión 1 - Algoritmia [Próximamente]</a>
                                             </p>
                                         </div>
                                     </div>
-									
-                                    <div class="col-lg-12 col-md-12 mb-6" style="margin-top: 5%">
+                                    <div class="col-lg-6 col-md-6 mb-4">
+                                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
+                                            <div class="icon"><i class="bi bi-camera-reels"></i></div>
+                                            <h4 class="title">Concursos</h4>
+                                            <p>
+                                                <i>El concurso de este módulo se realizará en conjunto con el Módulo III.</i>
+											</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 mb-4">
                                         <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
                                             <div class="icon"><i class="bi bi-binoculars"></i></div>
-                                            <h4 class="title">Inscripción</h4>
+                                            <h4 class="title">Ejercicios</h4>
                                             <p class="description">
-                                                <i class="bi bi-check2-circle"><a class="description" href="https://forms.office.com/e/pLTCnbdT7D" target="_blank">Formulario</a></i> 
+                                                <!-- <i class="bi bi-check2-circle"> <a class="description" href="" target="_blank"></a></i> 
+                                                <br>
+                                                <i class="bi bi-check2-circle"> <a class="description" href="" target="_blank"></a></i> 
+                                                <br>
+                                                <i class="bi bi-check2-circle"> <a class="description" href="" target="_blank"></a></i> -->
                                             </p>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 mb-4">
+                                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
+                                            <div class="icon"><i class="bi bi-card-checklist"></i></div>
+                                            <h4 class="title">Recursos</h4>
+										    <p class="description">
+                                                <i class="bi bi-check2-circle"> <a class="description" href="https://visualgo.net/en" target="_blank">VisuAlgo</a></i> 
+                                                <br>
+                                                <i class="bi bi-check2-circle"> Competitive Programming 3/4</i> 
+                                                <br>
+                                                <i class="bi bi-check2-circle"> Introducción a los algoritmos</i> 
                                             </p>
                                         </div>
                                     </div>
@@ -247,7 +356,7 @@
                     <div class="tab-pane" id="tab-3">
                         <div class="row">
                             <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                                <h3>Concurso III: Iniciación a problemas de Grafos</h3>
+                                <h3>Módulo III: Iniciación a Grafos</h3>
                                 <p class="semi">
                                     ¿Qué se verá?
                                 </p>
@@ -255,37 +364,60 @@
                                     <div class="col-lg-12">
                                         <ul>
                                             <li><i class="ri-check-double-line"></i> Representación</li>
-                                            <li><i class="ri-check-double-line"></i> Recorridos (BFS, DFS)</li>
-                                            <li><i class="ri-check-double-line"></i> Caminos y ciclos eulerianos y hamiltonianos</li>
-										    <li><i class="ri-check-double-line"></i> Ordenamiento Topológico</li>
-										    <li><i class="ri-check-double-line"></i> Puntos de articulación</li>
+                                            <li><i class="ri-check-double-line"></i> Recorridos por anchura</li>
+                                            <li><i class="ri-check-double-line"></i> Recorridos en profundidad</li>
+                                            <li><i class="ri-check-double-line"></i> Caminos de coste mínimo</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-							<div class="col-lg-6 order-1 order-lg-2 text-left">
+                            <div class="col-lg-6 order-1 order-lg-2 text-center">
                                 <div class="row">
-                                    <div class="col-lg-12 col-md-12 mb-6">
+                                    <div class="col-lg-6 col-md-6 mb-4">
                                         <div class="icon-box" data-aos="zoom-in-left">
                                             <div class="icon"><i class="bi bi-briefcase"></i></div>
-                                            <h4 class="title">Problemas</h4>
+                                            <h4 class="title">Diapositivas</h4>
                                             <p>
-												<!--<a class="description" href="" target="_blank"><i class="bi bi-download"></i>  Problemas</a> 
-												<br>
-												<a class="description" href="" target="_blank"><i class="bi bi-download"></i>  Soluciones</a> 
-												<br>-->
-
+                                                <a class="description disabled-link" href="" target="_blank"><i class="bi bi-download"></i> Sesión 1 - Grafos [Próximamente]</a>
                                             </p>
                                         </div>
                                     </div>
-									
-                                    <div class="col-lg-12 col-md-12 mb-6" style="margin-top: 5%">
+                                    <div class="col-lg-6 col-md-6 mb-4">
+                                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
+                                            <div class="icon"><i class="bi bi-camera-reels"></i></div>
+                                            <h4 class="title">Concursos</h4>
+                                            <p>
+                                                <a class="description disabled-link" href="" target="_blank"><i class="bi bi-download"></i> Problemas Grafos [Próximamente]</a>
+                                                <br>
+                                                <a class="description disabled-link" href="" target="_blank"><i class="bi bi-download"></i> Soluciones Grafos [Próximamente]</a>
+                                                <br>
+                                                <a class="description disabled-link" href="" target="_blank"><i class="bi bi-download"></i> Clasificación Grafos [Próximamente]</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 mb-4">
                                         <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
                                             <div class="icon"><i class="bi bi-binoculars"></i></div>
-                                            <h4 class="title">Inscripción</h4>
+                                            <h4 class="title">Ejercicios</h4>
                                             <p class="description">
-                                                <i class="bi bi-check2-circle"><a class="description" href="https://forms.office.com/e/29TyzaTXiG" target="_blank">Formulario</a></i> 
+                                                <!-- <i class="bi bi-check2-circle"> <a class="description" href="" target="_blank"></a></i> 
+                                                <br>
+                                                <i class="bi bi-check2-circle"> <a class="description" href="" target="_blank"></a></i> 
+                                                <br>
+                                                <i class="bi bi-check2-circle"> <a class="description" href="" target="_blank"></a></i> -->
                                             </p>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 mb-4">
+                                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
+                                            <div class="icon"><i class="bi bi-card-checklist"></i></div>
+                                            <h4 class="title">Recursos</h4>
+										    <p class="description">
+                                                <i class="bi bi-check2-circle"> <a class="description" href="https://visualgo.net/en" target="_blank">VisuAlgo</a></i> 
+                                                <br>
+                                                <i class="bi bi-check2-circle"> Competitive Programming 3/4</i> 
                                             </p>
                                         </div>
                                     </div>
@@ -293,11 +425,91 @@
                             </div>
                         </div>
                     </div>
+                    <div class="tab-pane" id="tab-4">
+                        <div class="row">
+                            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                                <h3>Módulo IV: Fuerza bruta y Programación Dinámica</h3>
+                                <p class="semi">
+                                    ¿Qué se verá?
+                                </p>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <ul>
+                                            <li><i class="ri-check-double-line"></i> Introducción</li>
+                                            <li><i class="ri-check-double-line"></i> Estructura</li>
+                                            <li><i class="ri-check-double-line"></i> Memorización</li>
+											<li><i class="ri-check-double-line"></i> Tipos de Programación Dinámica</li>
+											<li><i class="ri-check-double-line"></i> Ejemplos</li>
+                                            <ul class="ms-4">
+                                                <li><i class="ri-check-double-line"></i> Fibonacci</li>
+                                                <li><i class="ri-check-double-line"></i> Contar caminos</li>
+                                                <li><i class="ri-check-double-line"></i> Knapsack</li>
+                                            </ul>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 order-1 order-lg-2 text-center">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 mb-4">
+                                        <div class="icon-box" data-aos="zoom-in-left">
+                                            <div class="icon"><i class="bi bi-briefcase"></i></div>
+                                            <h4 class="title">Diapositivas</h4>
+                                            <p>
+                                                <a class="description disabled-link" href="" target="_blank"><i class="bi bi-download"></i> Sesión 1 - Programación Dinámica [Próximamente]</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 mb-4">
+                                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
+                                            <div class="icon"><i class="bi bi-camera-reels"></i></div>
+                                            <h4 class="title">Concursos</h4>
+                                            <p>
+                                                <a class="description disabled-link" href="" target="_blank"><i class="bi bi-download"></i> Problemas Programación Dinámica [Próximamente]</a>
+                                                <br>
+                                                <a class="description disabled-link" href="" target="_blank"><i class="bi bi-download"></i> Soluciones Programación Dinámica [Próximamente]</a>
+                                                <br>
+                                                <a class="description disabled-link" href="" target="_blank"><i class="bi bi-download"></i> Clasificación Programación Dinámica [Próximamente]</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 mb-4">
+                                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
+                                            <div class="icon"><i class="bi bi-binoculars"></i></div>
+                                            <h4 class="title">Ejercicios</h4>
+                                            <p class="description">
+                                                <!-- <i class="bi bi-check2-circle"> <a class="description" href="" target="_blank"></a></i> 
+                                                <br>
+                                                <i class="bi bi-check2-circle"> <a class="description" href="" target="_blank"></a></i> 
+                                                <br>
+                                                <i class="bi bi-check2-circle"> <a class="description" href="" target="_blank"></a></i> -->
+                                            </p>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 mb-4">
+                                        <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
+                                            <div class="icon"><i class="bi bi-card-checklist"></i></div>
+                                            <h4 class="title">Recursos</h4>
+										    <p class="description">
+                                                <i class="bi bi-check2-circle"> <a class="description" href="https://visualgo.net/en" target="_blank">VisuAlgo</a></i> 
+                                                <br>
+                                                <i class="bi bi-check2-circle"> Competitive Programming 3/4</i> 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
         <!-- End Materials Section -->
 
-<!-- ======= Calendar Section ======= -->
+        <!-- ======= Calendar Section ======= -->
         <section id="calendar" class="calendar">
             <div class="container">
 
@@ -306,32 +518,56 @@
                     <p>Calendario</p>
                 </div>
 
-                <div class="row" data-aos="zoom-out">
-				<p>Horario de 17:00 a 20:00, puedes observar el Aula y contenido de cada día pulsando encima de cada una de las fechas.</p>
-                    <div class="col-lg-3 text-center text-lg-start" style="padding-top: 40px;">
+                <p data-aos="zoom-out" class="pt-5 pb-2">Horario de 17:00 a 19:00, puedes observar el Aula y contenido de cada día pulsando encima de cada una de las fechas.</p>
+                <div class="row px-5" data-aos="zoom-out">
+                    <div class="col-lg-4 text-center text-lg-start">
                         <h3>FEBRERO</h3>
                         <div class="row" data-aos="zoom-out">
                             <div class="col-lg-2 days">
-                                <h4>16</h4>
-                                <span class="tooltiptext">Concurso I<br><strong>Laboratorios III</strong>: 109</span>
+                                <h4>7</h4>
+                                <span class="tooltiptext">Introducción<hr class="my-1 mx-3"><strong>Laboratorio III</strong>: 111</span>
+                            </div>
+						   <div class="col-lg-2 days">
+                                <h4>14</h4>
+                                <span class="tooltiptext">Módulo I <br> ED I<hr class="my-1 mx-3"><strong>Laboratorio III</strong>: 111</span>
+                            </div>
+                            <div class="col-lg-2 days">
+                                <h4>21</h4>
+                                <span class="tooltiptext">Concurso <br> ED I<hr class="my-1 mx-3"><strong>Laboratorio III</strong>: 111</span>
+                            </div>
+                            <div class="col-lg-2 days">
+                                <h4>28</h4>
+                                <span class="tooltiptext">Módulo I <br> ED II<hr class="my-1 mx-3"><strong>Laboratorio III</strong>: 111</span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 text-center text-lg-start" style="padding-top: 40px;">
+                    <div class="col-lg-4 text-center text-lg-start">
                         <h3>MARZO</h3>
                         <div class="row" data-aos="zoom-out">
                             <div class="col-lg-2 days">
-                                <h4>1</h4>
-                                <span class="tooltiptext">Concurso II<br><strong>Laboratorios III</strong>: 103</span>
+                                <h4>7</h4>
+                                <span class="tooltiptext">Módulo II <br> Algoritmia<hr class="my-1 mx-3"><strong>Laboratorio III</strong>: 111</span>
+                            </div>
+                            <div class="col-lg-2 days">
+                                <h4>14</h4>
+                                <span class="tooltiptext">Módulo III <br> Grafos<hr class="my-1 mx-3"><strong>Laboratorio III</strong>: 111</span>
+                            </div>
+							<div class="col-lg-2 days">
+                                <h4>21</h4>
+                                <span class="tooltiptext">Concurso <br>Algoritmia + Grafos<hr class="my-1 mx-3"><strong>Laboratorio III</strong>: 111</span>
+                            </div>
+						   <div class="col-lg-2 days">
+                                <h4>28</h4>
+                                <span class="tooltiptext">Módulo IV <br> Fuerza bruta y DP<hr class="my-1 mx-3"><strong>Laboratorio III</strong>: 111</span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 text-center text-lg-start" style="padding-top: 40px;">
+                    <div class="col-lg-4 text-center text-lg-start">
                         <h3>ABRIL</h3>
                         <div class="row" data-aos="zoom-out">
                             <div class="col-lg-2 days">
-                                <h4>5</h4>
-                                <span class="tooltiptext">Concurso III<br><strong>Laboratorios XX</strong>: XX</span>
+                                <h4>4</h4>
+                                <span class="tooltiptext">Concurso Final<hr class="my-1 mx-3"><strong>Laboratorio III</strong>: 111</span>
                             </div>
                         </div>
                     </div>
@@ -340,7 +576,84 @@
             </div>
         </section>
         <!-- End Calendar Section -->
-<!-- ======= F.A.Q Section ======= -->
+
+        <!-- ======= Tools Section ======= -->
+
+        <section id="tools" class="tools">
+            <div class="container">
+
+                <div class="section-title" data-aos="zoom-out">
+                    <h2><i class="bi bi-tools"></i></h2>
+                    <p>Herramientas necesarias</p>
+                </div>
+                <div data-aos="zoom-out">
+                    <p>Es recomendable tener instalado un <strong>entorno de desarrollo</strong> para el <strong>lenguaje de programación</strong> que se desee utilizar. Por su sencillez y rápido aprendizaje, el curso se va a realizar utilizando principalmente <b>Python</b>. Sin embargo, como el lenguaje más utilizado en programación competitiva debido a su velocidad es <strong>C++</strong>, y los mejores equipos históricos de la universidad mucha gente usa <strong>Java</strong>, se va a proporcionar ayuda para estos otros lenguajes.</p>
+                    <p>Para las sesiones y los concursos, podréis utilizar los entornos de desarrollo que tenéis en el <b>entorno virtual</b> de los laboratorios. Para practicar en casa, aunque se puede utilizar el entorno virtual desde la herramienta de <a href="https://myapps.urjc.es/myapps">MyApps</a> de la Universidad Rey Juan Carlos, se recomienda tener preparado el entorno en <b>vuestros dispositvos</b>.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- End Tools Section -->
+
+		<!-- ======= Inscripcion Section ======= -->
+        <section id="inscripcion" class="tools">
+            <div class="container">
+
+                <div class="section-title" data-aos="zoom-out">
+                    <h2><i class="bi bi-envelope"></i></h2>
+                    <p>Inscripción</p>
+                </div>
+                <div data-aos="zoom-out">
+                    <p>La inscripción está disponible para alumnos de la <b>Universidad Rey Juan Carlos</b>, es <b>gratuita</b> y se debe realizar desde el formulario que puedes llegar desde el siguiente botón.</p>
+
+                </div>
+
+                <div class="row" data-aos="zoom-out">
+                    <div class="col-lg-12 tool-btn-container text-center">
+                        <a class="tool-link" target="_blank" href="https://forms.office.com/e/13eFkWqGRZ"><i class="bi bi-brush"> </i>Acceso al formulario</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <!-- End Inscripcion Section -->
+
+        <!-- ======= Cta Section ======= -->
+        <section id="cta" class="cta">
+            <div class="container">
+
+                <div class="row" data-aos="zoom-out">
+                    <div class="col-lg-8 text-center text-lg-start">
+                        <div class="section-title" data-aos="zoom-out">
+                            <h2><i class="bi bi-search"></i></h2>
+                            <p>¿Dónde encontrarnos?</p>
+                        </div>
+                        <p>Tenemos dos grupos de Telegram para todos los asistentes. Uno pertenece al grupo de programación competitiva y otro a la asociación de Dijkstraidos. En ambos podeis consultar las dudas que tengáis y ayudaros mutuamente, junto con los profesores. En el grupo de la asociación además podrás disfrutar de una comunidad y organizar diferentes actividades ¿A qué esperas para unirte? ¡Creemos comunidad!</p>
+                    </div>
+                    <div class="col-lg-2 cta-btn-container text-center my-auto">
+						<a class="align-middle" style="font-size: 20px; color: #3390EC;" href="https://t.me/+UdgFSAXD7kRB22Sb">
+                            <i class="ri-telegram-fill"></i>
+                            URJC-CP <br>
+                            <img src="assets/img/URJC-CP_bg.bmp"class="rounded-circle mt-3" width="70" alt="Telegram URJC-CP">
+                        </a>
+                    </div>
+                    <div class="col-lg-2 cta-btn-container text-center my-auto">
+						<a class="align-middle" style="font-size: 20px; color: #3390EC;" href="https://t.me/+_s5FWOeCf2c5NmJk">
+                            <i class="ri-telegram-fill"></i>
+                            Dijkstraidos <br>
+                            <img src="assets/img/Dijkstraidos_bg.bmp" class="rounded-circle mt-3" width="70" alt="Dijkstraidos">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- End Cta Section -->
+
+        <!-- ======= F.A.Q Section ======= -->
         <section id="faq" class="faq">
             <div class="container">
 
@@ -352,80 +665,79 @@
                 <ul class="faq-list" data-aos="zoom-out">
 
                     <li>
-                        <div data-bs-toggle="collapse" class="collapsed question" href="#faq01">¿Me ayudará a aprobar?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-                        <div id="faq01" class="collapse" data-bs-parent=".faq-list">
-                            <p>
-                                Se realizarán problemas parecidos a los que puedes enfrentarte en un examen, te ayudará a tener más experiencia en este tipo de problemas.
-                            </p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">¿Objetivos de los concursos?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                        <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">¿Qué es la programación competitiva?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
                         <div id="faq1" class="collapse" data-bs-parent=".faq-list">
                             <p>
-                                Este año realizaremos concursos basados en el temario según vaya avanzando el curso académico, te ayudará a asentar conocimientos, resolver dudas y llegar más preparado al futuro examen.
+                                Son competencias donde se mide las habilidades de programación y algoritmia de los participantes para resolver un conjunto de problemas lógicos y matemáticos.
                             </p>
 							<p>
-								Adicionalmente, muchas empresas realizan este tipo de competiciones en sus entrevistas de trabajo (Amazon, Google, Facebook, etc). Los participantes en programacióm competitiva tienen alguna ventaja al conocerlo de antes.
+								Muchas empresas realizan este tipo de competiciones en sus entrevistas de trabajo (Amazon, Google, Facebook, etc). Los participantes en programacióm competitiva tienen alguna ventaja al conocerlo de antes.
 							</p>
                         </div>
                     </li>
 					
-					
 					<li>
-                        <div data-bs-toggle="collapse" class="collapsed question" href="#faq02">¿En que lenguaje puedo participar?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-                        <div id="faq02" class="collapse" data-bs-parent=".faq-list">
-                            <p>
-                                Java, C, C++ o Python.
-                            </p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">¿Puedo asistir a los concursos si no tengo conocimientos?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                        <div data-bs-toggle="collapse" class="collapsed question" href="#faq2">¿Necesito previamente conocer un lenguaje de programación?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
                         <div id="faq2" class="collapse" data-bs-parent=".faq-list">
                             <p>
-                                ¡Claro que sí! Los concursos este año están ideados para practicar ejercicios de asignaturas como: IP, POO, ED, EDA, AV, PA o DAA. Lo único necesario son ganas de aprender y de compartir el conocimiento con los demás.
+                                Es recomendable pero no necesario, el curso se aborda desde cero explicando los conceptos en los lenguajes de Python, Java y C++.
                             </p>
                         </div>
                     </li>
-
-                    <li>
-                        <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">¿Cuándo y dónde se desarrollan los concursos?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+					
+					<li>
+                        <div data-bs-toggle="collapse" class="collapsed question" href="#faq3">¿En que lenguaje se da el curso?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
                         <div id="faq3" class="collapse" data-bs-parent=".faq-list">
                             <p>
-                                Los concursos se realizarán los <strong>viernes de 17:00 a 20:00</strong> presencial (previa inscripción).
-                            </p>
-                            <p>
-                                El aula en el que se desarrolle dependerá del número de asistentes inscritos y la disponibilidad de la Universidad. Lo iremos actualizando en el calendario que puedes encontrar más arriba.
+                                El curso aborda la mayoría de algoritmos en pseudocódigo y se facilitan los códigos en diversos lenguajes como Python, Java y C++. Sin embargo, para la realización de problemas en las sesiones, se realizará la solución en Python y se proprocionarán las soluciones en el resto de lenguajes.
                             </p>
                         </div>
                     </li>
 
                     <li>
-                        <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">¿Se otorgan créditos RAC por asistir?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                        <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">¿Puedo asistir al curso si no tengo conocimientos?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                        <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+                            <p>
+                                ¡Claro que sí! En este curso abordaremos los diferentes conceptos y módulos desde un nivel introductorio, sin dejar de lado a aquellos asistentes más aventajados. Lo único necesario son ganas de aprender y de compartir el conocimiento con los demás.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">¿Cuándo y dónde se desarrolla el curso?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
                         <div id="faq5" class="collapse" data-bs-parent=".faq-list">
                             <p>
-                                Sí, por cada concurso participado obtendrás 3 horas en créditos RAC.
+                                El curso se impartirá los <strong>viernes de 17:00 a 19:00</strong> presencial (previa inscripción).
+                            </p>
+                            <p>
+                                El aula en el que se desarrolle será la <b>111</b> del edificio de <b>Laboratorios III</b>.
                             </p>
                         </div>
                     </li>
 
                     <li>
-                        <div data-bs-toggle="collapse" href="#faq7" class="collapsed question">¿Puedo participar más tarde?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                        <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">¿Qué material necesito para seguir las clases?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                        <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+                            <p>
+                                Revisa el apartado de Materiales necesarios para traer preparado todo lo imprescindible para clase. Si tienes alguna problema, no dudes en preguntarnos por los grupos de Telegram.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div data-bs-toggle="collapse" href="#faq7" class="collapsed question">¿Se otorgan créditos RAC por asistir?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
                         <div id="faq7" class="collapse" data-bs-parent=".faq-list">
                             <p>
-                                Sí, incluso puedes preguntar dudas por Telegram para que te las resuelvan.
+                                Sí, el curso tiene una duración de 24 horas repartidas en clases de 2 horas a la semana. Esto equivale a 1.2 créditos RAC reconocidos por la Universidad para aquellos asistentes que <b>acudan y participen activamente</b> en las sesiones.
                             </p>
                         </div>
                     </li>
 
                     <li>
-                        <div data-bs-toggle="collapse" href="#faq07" class="collapsed question">¿Puedo usar internet, chatGPT o copilot?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-                        <div id="faq07" class="collapse" data-bs-parent=".faq-list">
+                        <div data-bs-toggle="collapse" href="#faq8" class="collapsed question">¿Quedarán grabadas las clases?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                        <div id="faq8" class="collapse" data-bs-parent=".faq-list">
                             <p>
-                               Solo vamos a comprobarlo en el concurso 2, no obstante, no se recomienda el uso de estas tecnologías en el concurso para mostrar conocimientos, posteriormente se permitirá hacer envíos y se puede usar cualquier tecnología.
+                                No se grabará el curso.
                             </p>
                         </div>
                     </li>
@@ -434,7 +746,10 @@
                         <div data-bs-toggle="collapse" href="#faq9" class="collapsed question">¿Qué material o plataformas recomendáis para practicar?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
                         <div id="faq9" class="collapse" data-bs-parent=".faq-list">
                             <p>
-                                Si quieres ir adentrándote en el mundillo y practicando con algunos problemas, puedes empezar con <a href="https://www.aceptaelreto.com//">Acepta el Reto</a> o con <a href="https://onlinejudge.org/">OnlineJudge</a>. También puede ayudarte toda la información de <a href="https://isaaclo97.github.io/programacion.html">la web personal de uno de los entrenadores</a>. <div class=""></div>
+                                Si quieres ir adentrándote en el mundillo y practicando con algunos problemas, puedes empezar con <a href="https://open.kattis.com/">Kattis</a>. También puede ayudarte toda la información de <a href="https://isaaclo97.github.io/programacion.html">la web personal de uno de los entrenadores</a>.
+                            </p>
+                            <p>
+                                Si no solo sabes en programar en Python y quieres probar otras plataformas que permiten enviar soluciones en C++ o Java, puedes probar con <a href="https://www.aceptaelreto.com/">Acepta el Reto</a>.
                             </p>
                             <p>
                                 Si tu nivel es más avanzado, ¿te atreverás con los retos de <a href="https://codeforces.com/">Codeforces</a>?
@@ -449,7 +764,6 @@
         </section>
         <!-- End F.A.Q Section -->
 
-
     </main>
     <!-- End #main -->
 
@@ -458,9 +772,8 @@
         <div class="container">
             <h3>Programación Competitiva</h3>
             <p>Realizado por alumnos de la Escuela Técnica Superior de Ingeniería Informática junto al grupo <a href="https://grafo.etsii.urjc.es/" target="_blank">GRAFO</a> de la URJC</p>
-            <a href="https://t.me/+UdgFSAXD7kRB22Sb" class="">URJC-CP <img src="assets/img/telegram.svg" width="30" alt=""></a>
-			<a href="https://t.me/+_s5FWOeCf2c5NmJk" class="">Dijkstraidos <img src="assets/img/telegram.svg" width="30" alt=""></a>
-
+            <a href="https://t.me/+UdgFSAXD7kRB22Sb" class="me-5">URJC-CP <img src="assets/img/telegram.svg" width="30" alt="Telegram URJC-CP" class="mx-2"></a>
+			<a href="https://t.me/+_s5FWOeCf2c5NmJk" class="ms-5">Dijkstraidos <img src="assets/img/telegram.svg" width="30" alt="Telegram Dijkstraidos" class="mx-2"></a>
         </div>
     </footer>
     <!-- End Footer -->
