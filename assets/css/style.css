@@ -909,3 +909,8 @@ section {
 .disabled-link {
     pointer-events: none;
 }
+
+.nav-link:focus, .nav-link:hover {
+    color: #fff;
+    text-decoration: none;
+}
