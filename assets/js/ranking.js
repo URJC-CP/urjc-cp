@@ -7,52 +7,30 @@ const ranking = {
     "headers": ["Nombre", "12Uvas", "Reg. AdaByron", "Nac. AdaByron", "Curso CP", "Codeforces", "Clasificatorio", "Puntos"],
     "rows": [
         {
-            "Nombre": { "content": "Sara García" },
-            "12Uvas": { "content": "5 (14)" },
-            "Reg. AdaByron": { "content": "10 (1)" },
-            "Nac. AdaByron": { "content": "" },
-            "Curso CP": { "content": "" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
-            "Puntos": { "content": "15" },
-            "skips": true
-        },
-        {
-            "Nombre": { "content": "Alicia Pina" },
-            "12Uvas": { "content": "5 (17)" },
-            "Reg. AdaByron": { "content": "10 (1)" },
-            "Nac. AdaByron": { "content": "" },
-            "Curso CP": { "content": "" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
-            "Puntos": { "content": "15" },
-            "skips": true
-        },
-        {
-            "Nombre": { "content": "Raúl Fauste" },
-            "12Uvas": { "content": "" },
-            "Reg. AdaByron": { "content": "10 (1)" },
-            "Nac. AdaByron": { "content": "" },
-            "Curso CP": { "content": "" },
-            "Codeforces": { "content": "1" },
-            "Clasificatorio": { "content": "" },
-            "Puntos": { "content": "11" },
-            "skips": true
-        },
-        {
             "Nombre": { "content": "Jose Manuel Fernández Moreno" },
-            "12Uvas": { "content": "" },
+            "12Uvas": { "content": "-" },
             "Reg. AdaByron": { "content": "10 (3)" },
             "Nac. AdaByron": { "content": "" },
             "Curso CP": { "content": "" },
-            "Codeforces": { "content": "1" },
+            "Codeforces": { "content": "2" },
             "Clasificatorio": { "content": "" },
-            "Puntos": { "content": "11" },
+            "Puntos": { "content": "12" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Rodrigo Dueñas Herrero" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "10 (5)" },
+            "Nac. AdaByron": { "content": "" },
+            "Curso CP": { "content": "" },
+            "Codeforces": { "content": "2" },
+            "Clasificatorio": { "content": "" },
+            "Puntos": { "content": "12" },
             "skips": false
         },
         {
             "Nombre": { "content": "Alberto Alegre Burcio" },
-            "12Uvas": { "content": "" },
+            "12Uvas": { "content": "-" },
             "Reg. AdaByron": { "content": "10 (5)" },
             "Nac. AdaByron": { "content": "" },
             "Curso CP": { "content": "" },
@@ -63,7 +41,7 @@ const ranking = {
         },
         {
             "Nombre": { "content": "Lucas Rodríguez Bravo" },
-            "12Uvas": { "content": "" },
+            "12Uvas": { "content": "-" },
             "Reg. AdaByron": { "content": "10 (5)" },
             "Nac. AdaByron": { "content": "" },
             "Curso CP": { "content": "" },
@@ -74,7 +52,7 @@ const ranking = {
         },
         {
             "Nombre": { "content": "Antón Rodríguez Seselle" },
-            "12Uvas": { "content": "" },
+            "12Uvas": { "content": "-" },
             "Reg. AdaByron": { "content": "10 (7)" },
             "Nac. AdaByron": { "content": "" },
             "Curso CP": { "content": "" },
@@ -84,41 +62,8 @@ const ranking = {
             "skips": false
         },
         {
-            "Nombre": { "content": "Eva Gómez" },
-            "12Uvas": { "content": "" },
-            "Reg. AdaByron": { "content": "10 (2)" },
-            "Nac. AdaByron": { "content": "" },
-            "Curso CP": { "content": "" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
-            "Puntos": { "content": "10" },
-            "skips": true
-        },
-        {
-            "Nombre": { "content": "David Orna" },
-            "12Uvas": { "content": "" },
-            "Reg. AdaByron": { "content": "10 (2)" },
-            "Nac. AdaByron": { "content": "" },
-            "Curso CP": { "content": "" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
-            "Puntos": { "content": "10" },
-            "skips": true
-        },
-        {
-            "Nombre": { "content": "Alejandro Mayoral" },
-            "12Uvas": { "content": "" },
-            "Reg. AdaByron": { "content": "10 (2)" },
-            "Nac. AdaByron": { "content": "" },
-            "Curso CP": { "content": "" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
-            "Puntos": { "content": "10" },
-            "skips": true
-        },
-        {
             "Nombre": { "content": "Iván Dorado Alegria" },
-            "12Uvas": { "content": "" },
+            "12Uvas": { "content": "-" },
             "Reg. AdaByron": { "content": "10 (3)" },
             "Nac. AdaByron": { "content": "" },
             "Curso CP": { "content": "" },
@@ -129,7 +74,7 @@ const ranking = {
         },
         {
             "Nombre": { "content": "Iván Coello Rivera" },
-            "12Uvas": { "content": "" },
+            "12Uvas": { "content": "-" },
             "Reg. AdaByron": { "content": "10 (3)" },
             "Nac. AdaByron": { "content": "" },
             "Curso CP": { "content": "" },
@@ -140,7 +85,7 @@ const ranking = {
         },
         {
             "Nombre": { "content": "Jaime Sánchez Vázquez" },
-            "12Uvas": { "content": "" },
+            "12Uvas": { "content": "-" },
             "Reg. AdaByron": { "content": "10 (4)" },
             "Nac. AdaByron": { "content": "" },
             "Curso CP": { "content": "" },
@@ -151,7 +96,7 @@ const ranking = {
         },
         {
             "Nombre": { "content": "Pau Calvo Jimenez" },
-            "12Uvas": { "content": "" },
+            "12Uvas": { "content": "-" },
             "Reg. AdaByron": { "content": "10 (4)" },
             "Nac. AdaByron": { "content": "" },
             "Curso CP": { "content": "" },
@@ -162,7 +107,7 @@ const ranking = {
         },
         {
             "Nombre": { "content": "Álvaro Fuente González" },
-            "12Uvas": { "content": "" },
+            "12Uvas": { "content": "-" },
             "Reg. AdaByron": { "content": "10 (4)" },
             "Nac. AdaByron": { "content": "" },
             "Curso CP": { "content": "" },
@@ -172,19 +117,8 @@ const ranking = {
             "skips": false
         },
         {
-            "Nombre": { "content": "Rodrigo Dueñas Herrero" },
-            "12Uvas": { "content": "" },
-            "Reg. AdaByron": { "content": "10 (5)" },
-            "Nac. AdaByron": { "content": "" },
-            "Curso CP": { "content": "" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
-            "Puntos": { "content": "10" },
-            "skips": false
-        },
-        {
             "Nombre": { "content": "Ignacio Sánchez Ferrero" },
-            "12Uvas": { "content": "" },
+            "12Uvas": { "content": "-" },
             "Reg. AdaByron": { "content": "10 (6)" },
             "Nac. AdaByron": { "content": "" },
             "Curso CP": { "content": "" },
@@ -195,7 +129,7 @@ const ranking = {
         },
         {
             "Nombre": { "content": "Pablo López Arjona" },
-            "12Uvas": { "content": "" },
+            "12Uvas": { "content": "-" },
             "Reg. AdaByron": { "content": "10 (6)" },
             "Nac. AdaByron": { "content": "" },
             "Curso CP": { "content": "" },
@@ -206,7 +140,7 @@ const ranking = {
         },
         {
             "Nombre": { "content": "Iván García Martínez" },
-            "12Uvas": { "content": "" },
+            "12Uvas": { "content": "-" },
             "Reg. AdaByron": { "content": "10 (6)" },
             "Nac. AdaByron": { "content": "" },
             "Curso CP": { "content": "" },
@@ -217,7 +151,7 @@ const ranking = {
         },
         {
             "Nombre": { "content": "Bernat Roselló Muñoz" },
-            "12Uvas": { "content": "" },
+            "12Uvas": { "content": "-" },
             "Reg. AdaByron": { "content": "10 (7)" },
             "Nac. AdaByron": { "content": "" },
             "Curso CP": { "content": "" },
@@ -228,7 +162,7 @@ const ranking = {
         },
         {
             "Nombre": { "content": "Manuel Gutiérrez Castro" },
-            "12Uvas": { "content": "" },
+            "12Uvas": { "content": "-" },
             "Reg. AdaByron": { "content": "10 (7)" },
             "Nac. AdaByron": { "content": "" },
             "Curso CP": { "content": "" },
@@ -238,31 +172,9 @@ const ranking = {
             "skips": false
         },
         {
-            "Nombre": { "content": "Iván Penedo" },
-            "12Uvas": { "content": "5 (112)" },
-            "Reg. AdaByron": { "content": "" },
-            "Nac. AdaByron": { "content": "" },
-            "Curso CP": { "content": "" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
-            "Puntos": { "content": "5" },
-            "skips": true
-        },
-        {
-            "Nombre": { "content": "Adaya Ruiz" },
-            "12Uvas": { "content": "5 (174)" },
-            "Reg. AdaByron": { "content": "" },
-            "Nac. AdaByron": { "content": "" },
-            "Curso CP": { "content": "" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
-            "Puntos": { "content": "5" },
-            "skips": true
-        },
-        {
             "Nombre": { "content": "Weisheng Zheng" },
-            "12Uvas": { "content": "" },
-            "Reg. AdaByron": { "content": "" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-" },
             "Nac. AdaByron": { "content": "" },
             "Curso CP": { "content": "" },
             "Codeforces": { "content": "2" },
