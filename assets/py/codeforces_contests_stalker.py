@@ -2,14 +2,27 @@ import csv
 import requests
 from time import sleep
 from datetime import datetime
+import argparse
 
-START_DATE = datetime(2024, 10, 2)
-END_DATE = datetime(2025, 12, 31)
-INPUT_CSV = './participants_2425.csv'
-OUTPUT_CSV = './output.csv'
+def parse_arguments():
+    parser = argparse.ArgumentParser(description='Count the number of contests with positive ELO results between dates.')
+    parser.add_argument('--start_date', type=lambda s: datetime.strptime(s, '%Y-%m-%d'), required=True, help='Start date in YYYY-MM-DD format')
+    parser.add_argument('--end_date', type=lambda s: datetime.strptime(s, '%Y-%m-%d'), required=True, help='End date in YYYY-MM-DD format')
+    parser.add_argument('--input_csv', type=str, required=True, help='Input CSV file path')
+    parser.add_argument('--output_csv', type=str, required=True, help='Output CSV file path')
+    parser.add_argument('--max_retries', type=int, default=3, help='Maximum number of retries')
+    parser.add_argument('--timeout', type=int, default=5, help='Timeout between retries in seconds')
+    return parser.parse_args()
+
+args = parse_arguments()
+
 API_URL = "https://codeforces.com/api/user.rating?handle={CF_HANDLE}"
-MAX_RETRIES = 3
-TIMEOUT = 5
+START_DATE = args.start_date
+END_DATE = args.end_date
+INPUT_CSV = args.input_csv
+OUTPUT_CSV = args.output_csv
+MAX_RETRIES = args.max_retries
+TIMEOUT = args.timeout
 
 def get_contests_between_dates(handle):
     response = requests_with_retries(API_URL.replace("{CF_HANDLE}", handle), handle)
