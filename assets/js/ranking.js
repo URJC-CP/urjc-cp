@@ -167,16 +167,22 @@ const ranking = {
         }
     ]
 }
-        //     "12Uvas": { "content": "" },
-        //     "Reg. AdaByron": { "content": "" },
-        //     "Nac. AdaByron": { "content": "" },
-        //     "Curso CP": { "content": "" },
-        //     "Codeforces": { "content": "" },
-        //     "Clasificatorio": { "content": "" },
-        //     "Puntos": { "content": "" },
-        //     "skips": false
-        // },
-    ]
+
+function calcularPuntos(data) {
+    data.rows.forEach(row => {
+        row.Puntos = { content: 0 };
+        let puntos = 0;
+        ["Clasificatorio", "Codeforces", "Curso CP", "Nac. AdaByron", "Reg. AdaByron", "12Uvas"].forEach(field => {
+            const value = row[field].content;
+            if (!isNaN(value) && value !== "" && value !== "-") {
+                puntos += parseInt(value, 10);
+            }
+        });
+        row.Puntos.content = puntos;
+    });
+
+    return data;
+}
 }
 
 
@@ -227,6 +233,7 @@ function crearTablaDesdeJSON(data) {
 
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.querySelector('table#clasificacion');
-    const tabla = crearTablaDesdeJSON(ranking);
+    let data = calcularPuntos(ranking);
+    const tabla = crearTablaDesdeJSON(data);
     container.appendChild(tabla);
 });
