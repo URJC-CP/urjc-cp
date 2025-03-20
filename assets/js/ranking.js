@@ -2,172 +2,6 @@ const classifiedStyle = "background-color: green; color: white;";
 const skipsStyle = "background-color: orange; color: white;";
 const max_classified = 6;
 
-const ranking = {
-    "headers": [ "Nombre", "12Uvas", "Reg. AdaByron", "Nac. AdaByron", "Curso CP", "Codeforces", "Clasificatorio", "Puntos" ],
-    "rows": [
-        {
-            "Nombre": { "content": "Jose Manuel Fernández Moreno" },
-            "12Uvas": { "content": "-" },
-            "Reg. AdaByron": { "content": 10, "position": 3 },
-            "Nac. AdaByron": { "content": "" },
-            "Curso CP": { "content": "" },
-            "Codeforces": { "content": 2 },
-            "Clasificatorio": { "content": "" },
-            "skips": false
-        },
-        {
-            "Nombre": { "content": "Rodrigo Dueñas Herrero" },
-            "12Uvas": { "content": "-" },
-            "Reg. AdaByron": { "content": 10, "position": 5 },
-            "Nac. AdaByron": { "content": "" },
-            "Curso CP": { "content": "" },
-            "Codeforces": { "content": 2 },
-            "Clasificatorio": { "content": "" },
-            "skips": false
-        },
-        {
-            "Nombre": { "content": "Alberto Alegre Burcio" },
-            "12Uvas": { "content": "-" },
-            "Reg. AdaByron": { "content": 10, "position": 5 },
-            "Nac. AdaByron": { "content": "" },
-            "Curso CP": { "content": "" },
-            "Codeforces": { "content": 1 },
-            "Clasificatorio": { "content": "" },
-            "skips": false
-        },
-        {
-            "Nombre": { "content": "Lucas Rodríguez Bravo" },
-            "12Uvas": { "content": "-" },
-            "Reg. AdaByron": { "content": 10, "position": 5 },
-            "Nac. AdaByron": { "content": "" },
-            "Curso CP": { "content": "" },
-            "Codeforces": { "content": 1 },
-            "Clasificatorio": { "content": "" },
-            "skips": false
-        },
-        {
-            "Nombre": { "content": "Antón Rodríguez Seselle" },
-            "12Uvas": { "content": "-" },
-            "Reg. AdaByron": { "content": 10, "position": 7 },
-            "Nac. AdaByron": { "content": "" },
-            "Curso CP": { "content": "" },
-            "Codeforces": { "content": 1 },
-            "Clasificatorio": { "content": "" },
-            "skips": false
-        },
-        {
-            "Nombre": { "content": "Iván Dorado Alegria" },
-            "12Uvas": { "content": "-" },
-            "Reg. AdaByron": { "content": 10, "position": 3 },
-            "Nac. AdaByron": { "content": "" },
-            "Curso CP": { "content": "" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
-            "skips": false
-        },
-        {
-            "Nombre": { "content": "Iván Coello Rivera" },
-            "12Uvas": { "content": "-" },
-            "Reg. AdaByron": { "content": 10, "position": 3 },
-            "Nac. AdaByron": { "content": "" },
-            "Curso CP": { "content": "" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
-            "skips": false
-        },
-        {
-            "Nombre": { "content": "Jaime Sánchez Vázquez" },
-            "12Uvas": { "content": "-" },
-            "Reg. AdaByron": { "content": 10, "position": 4 },
-            "Nac. AdaByron": { "content": "" },
-            "Curso CP": { "content": "" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
-            "skips": false
-        },
-        {
-            "Nombre": { "content": "Pau Calvo Jimenez" },
-            "12Uvas": { "content": "-" },
-            "Reg. AdaByron": { "content": 10, "position": 4 },
-            "Nac. AdaByron": { "content": "" },
-            "Curso CP": { "content": "" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
-            "skips": false
-        },
-        {
-            "Nombre": { "content": "Álvaro Fuente González" },
-            "12Uvas": { "content": "-" },
-            "Reg. AdaByron": { "content": 10, "position": 4 },
-            "Nac. AdaByron": { "content": "" },
-            "Curso CP": { "content": "" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
-            "skips": false
-        },
-        {
-            "Nombre": { "content": "Ignacio Sánchez Ferrero" },
-            "12Uvas": { "content": "-" },
-            "Reg. AdaByron": { "content": 10, "position": 6 },
-            "Nac. AdaByron": { "content": "" },
-            "Curso CP": { "content": "" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
-            "skips": false
-        },
-        {
-            "Nombre": { "content": "Pablo López Arjona" },
-            "12Uvas": { "content": "-" },
-            "Reg. AdaByron": { "content": 10, "position": 6 },
-            "Nac. AdaByron": { "content": "" },
-            "Curso CP": { "content": "" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
-            "skips": false
-        },
-        {
-            "Nombre": { "content": "Iván García Martínez" },
-            "12Uvas": { "content": "-" },
-            "Reg. AdaByron": { "content": 10, "position": 6 },
-            "Nac. AdaByron": { "content": "" },
-            "Curso CP": { "content": "" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
-            "skips": false
-        },
-        {
-            "Nombre": { "content": "Bernat Roselló Muñoz" },
-            "12Uvas": { "content": "-" },
-            "Reg. AdaByron": { "content": 10, "position": 7 },
-            "Nac. AdaByron": { "content": "" },
-            "Curso CP": { "content": "" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
-            "skips": false
-        },
-        {
-            "Nombre": { "content": "Manuel Gutiérrez Castro" },
-            "12Uvas": { "content": "-" },
-            "Reg. AdaByron": { "content": 10, "position": 7 },
-            "Nac. AdaByron": { "content": "" },
-            "Curso CP": { "content": "" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
-            "skips": false
-        },
-        {
-            "Nombre": { "content": "Weisheng Zheng" },
-            "12Uvas": { "content": "-" },
-            "Reg. AdaByron": { "content": "-" },
-            "Nac. AdaByron": { "content": "" },
-            "Curso CP": { "content": "" },
-            "Codeforces": { "content": 2 },
-            "Clasificatorio": { "content": "" },
-            "skips": false
-        }
-    ]
-}
-
 function calcularPuntos(data) {
     data.rows.forEach(row => {
         row.Puntos = { content: 0 };
@@ -180,8 +14,6 @@ function calcularPuntos(data) {
         });
         row.Puntos.content = puntos;
     });
-
-    return data;
 }
 
 function sortRanking(data) {
@@ -294,9 +126,17 @@ function crearTablaDesdeJSON(data) {
     return table;
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+function loadRankingData(ranking_name) {
     const container = document.querySelector('table#clasificacion');
-    let data = calcularPuntos(ranking);
-    const tabla = crearTablaDesdeJSON(data);
-    container.appendChild(tabla);
-});
+    // load data from JSON in file
+    let ranking = null;
+    fetch(`assets/data/${ranking_name}.json`)
+        .then(response => response.json())
+        .then(data => {
+            ranking = data;
+            calcularPuntos(ranking);
+            sortRanking(ranking);
+            const tabla = crearTablaDesdeJSON(data);
+            container.appendChild(tabla);
+        });
+}
