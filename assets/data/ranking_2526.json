@@ -27,7 +27,7 @@
             "Reg. AdaByron": { "content": 10, "position": 5 },
             "Nac. AdaByron": { "content": "" },
             "Curso CP": { "content": "" },
-            "Codeforces": { "content": 1 },
+            "Codeforces": { "content": 2 },
             "Clasificatorio": { "content": "" },
             "skips": false
         },
@@ -37,7 +37,7 @@
             "Reg. AdaByron": { "content": 10, "position": 5 },
             "Nac. AdaByron": { "content": "" },
             "Curso CP": { "content": "" },
-            "Codeforces": { "content": 1 },
+            "Codeforces": { "content": 2 },
             "Clasificatorio": { "content": "" },
             "skips": false
         },
@@ -67,7 +67,7 @@
             "Reg. AdaByron": { "content": 10, "position": 3 },
             "Nac. AdaByron": { "content": "" },
             "Curso CP": { "content": "" },
-            "Codeforces": { "content": "" },
+            "Codeforces": { "content": "2" },
             "Clasificatorio": { "content": "" },
             "skips": false
         },
@@ -153,6 +153,16 @@
         },
         {
             "Nombre": { "content": "Weisheng Zheng" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-" },
+            "Nac. AdaByron": { "content": "" },
+            "Curso CP": { "content": "" },
+            "Codeforces": { "content": 2 },
+            "Clasificatorio": { "content": "" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Adrián Feito Blázquez" },
             "12Uvas": { "content": "-" },
             "Reg. AdaByron": { "content": "-" },
             "Nac. AdaByron": { "content": "" },
