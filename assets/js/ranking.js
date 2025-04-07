@@ -130,12 +130,12 @@ function loadRankingData(ranking_name) {
     const container = document.querySelector('table#clasificacion');
     // load data from JSON in file
     let ranking = null;
-    fetch(`assets/data/${ranking_name}.json`)
+	fetch(`assets/data/${ranking_name}.json`)
         .then(response => response.json())
         .then(data => {
             ranking = data;
             calcularPuntos(ranking);
-            sortRanking(ranking);
+            //sortRanking(ranking);
             const tabla = crearTablaDesdeJSON(data);
             container.appendChild(tabla);
         });
