@@ -135,7 +135,7 @@ function loadRankingData(ranking_name) {
         .then(data => {
             ranking = data;
             calcularPuntos(ranking);
-            //sortRanking(ranking);
+            sortRanking(ranking);
             const tabla = crearTablaDesdeJSON(data);
             container.appendChild(tabla);
         });
