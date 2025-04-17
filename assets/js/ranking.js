@@ -20,8 +20,8 @@ function sortRanking(data) {
     // Helper function to safely get content and handle "-"
     const getContent = (obj) => {
       const content = obj?.content;
-      if (typeof content === 'number') {
-        return content;
+      if (!isNaN(content)) {
+        return Number(content);
       }
       if (content === '-') {
         return 0; // Treat "-" as the smallest value
@@ -31,7 +31,7 @@ function sortRanking(data) {
   
     const getPosition = (obj) => {
       const position = obj?.position;
-      return typeof position === 'number' ? position : 0x3f3f3f; // Treat non-numeric/missing as highest
+      return isNaN(position) ? 0x3f3f3f : Number(position); // Treat non-numeric/missing as highest
     };
 
     data.rows.sort((a, b) => {
@@ -43,7 +43,7 @@ function sortRanking(data) {
         const clasifContentDiff = getContent(b.Clasificatorio) - getContent(a.Clasificatorio);
         if (clasifContentDiff !== 0) return clasifContentDiff;
       
-        // 3. Compare "Clasificatorio Posicion" (Descending)
+        // 3. Compare "Clasificatorio Posicion" (Ascending)
         const clasifPosDiff = getPosition(b.Clasificatorio) - getPosition(a.Clasificatorio);
         if (clasifPosDiff !== 0) return -clasifPosDiff;
       
@@ -51,7 +51,7 @@ function sortRanking(data) {
         const nacContentDiff = getContent(b["Nac. AdaByron"]) - getContent(a["Nac. AdaByron"]);
         if (nacContentDiff !== 0) return nacContentDiff;
       
-        // 5. Compare "Nac. AdaByron Posicion" (Descending)
+        // 5. Compare "Nac. AdaByron Posicion" (Ascending)
         const nacPosDiff = getPosition(b["Nac. AdaByron"]) - getPosition(a["Nac. AdaByron"]);
         if (nacPosDiff !== 0) return -nacPosDiff;
       
@@ -59,7 +59,7 @@ function sortRanking(data) {
         const regContentDiff = getContent(b["Reg. AdaByron"]) - getContent(a["Reg. AdaByron"]);
         if (regContentDiff !== 0) return regContentDiff;
       
-        // 7. Compare "Reg. AdaByron Posicion" (Descending)
+        // 7. Compare "Reg. AdaByron Posicion" (Ascending)
         const regPosDiff = getPosition(b["Reg. AdaByron"]) - getPosition(a["Reg. AdaByron"]);
         if (regPosDiff !== 0) return -regPosDiff;
       
@@ -67,7 +67,7 @@ function sortRanking(data) {
         const uvasContentDiff = getContent(b["12Uvas"]) - getContent(a["12Uvas"]);
         if (uvasContentDiff !== 0) return uvasContentDiff;
       
-        // 9. Compare "12Uvas Posicion" (Descending)
+        // 9. Compare "12Uvas Posicion" (Ascending)
         const uvasPosDiff = getPosition(b["12Uvas"]) - getPosition(a["12Uvas"]);
         if (uvasPosDiff !== 0) return -uvasPosDiff;
 
