@@ -7,7 +7,7 @@
             "Reg. AdaByron": { "content": "10", "position":"3" },
             "Nac. AdaByron": { "content": "10", "position":"7" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "3" },
+            "Codeforces": { "content": "5" },
             "Clasificatorio": { "content": "" },
             "skips": false
         },
@@ -17,7 +17,7 @@
             "Reg. AdaByron": { "content": "10", "position":"3" },
             "Nac. AdaByron": { "content": "10", "position":"7" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "2" },
+            "Codeforces": { "content": "4" },
             "Clasificatorio": { "content": "" },
             "skips": false
         },
@@ -27,7 +27,7 @@
             "Reg. AdaByron": { "content": "10", "position":"3" },
             "Nac. AdaByron": { "content": "10", "position":"7" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
+            "Codeforces": { "content": "5" },
             "Clasificatorio": { "content": "" },
             "skips": false
         },
@@ -57,7 +57,7 @@
             "Reg. AdaByron": { "content": "10", "position":"5" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "-" },
-            "Codeforces": { "content": "1" },
+            "Codeforces": { "content": "2" },
             "Clasificatorio": { "content": "" },
             "skips": false
         },
@@ -67,7 +67,7 @@
             "Reg. AdaByron": { "content": "10", "position":"5" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "1" },
+            "Codeforces": { "content": "3" },
             "Clasificatorio": { "content": "" },
             "skips": false
         },
@@ -207,7 +207,7 @@
             "Reg. AdaByron": { "content": "10", "position":"9" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
+            "Codeforces": { "content": "2" },
             "Clasificatorio": { "content": "" },
             "skips": false
         },
@@ -237,7 +237,7 @@
             "Reg. AdaByron": { "content": "10", "position":"10" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
+            "Codeforces": { "content": "4" },
             "Clasificatorio": { "content": "" },
             "skips": false
         },
@@ -408,6 +408,26 @@
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
             "Codeforces": { "content": "" },
+            "Clasificatorio": { "content": "" },
+            "skips": false
+        },
+		{
+            "Nombre": { "content": "Adrián Feito Blázquez" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-" },
+            "Curso CP": { "content": "-" },
+            "Codeforces": { "content": "2" },
+            "Clasificatorio": { "content": "" },
+            "skips": false
+        },
+		{
+            "Nombre": { "content": "Aitor Márquez Santamera" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-" },
+            "Curso CP": { "content": "-" },
+            "Codeforces": { "content": "1" },
             "Clasificatorio": { "content": "" },
             "skips": false
         }
