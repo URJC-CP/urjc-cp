@@ -1,6 +1,5 @@
 const classifiedStyle = "background-color: green; color: white;";
 const skipsStyle = "background-color: orange; color: white;";
-const max_classified = 6;
 
 function calcularPuntos(data) {
     data.rows.forEach(row => {
@@ -111,7 +110,7 @@ function crearTablaDesdeJSON(data) {
             if (header == "Nombre") {
                 if (row.skips) 
                     td.setAttribute('style', skipsStyle);
-                else if (header == "Nombre" && classified < max_classified) {
+                else if (header == "Nombre" && classified < num_classified) {
                     td.setAttribute('style', classifiedStyle);
                     classified++;
                 }
@@ -126,7 +125,7 @@ function crearTablaDesdeJSON(data) {
     return table;
 }
 
-function loadRankingData(ranking_name) {
+function loadRankingData(ranking_name, num_classified=6) {
     const container = document.querySelector('table#clasificacion');
     // load data from JSON in file
     let ranking = null;
@@ -136,7 +135,7 @@ function loadRankingData(ranking_name) {
             ranking = data;
             calcularPuntos(ranking);
             sortRanking(ranking);
-            const tabla = crearTablaDesdeJSON(data);
+            const tabla = crearTablaDesdeJSON(data, num_classified);
             container.appendChild(tabla);
         });
 }
