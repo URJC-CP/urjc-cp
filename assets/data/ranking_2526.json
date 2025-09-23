@@ -8,7 +8,7 @@
             "Nac. AdaByron": { "content": "10", "position":"7" },
             "Curso CP": { "content": "5" },
             "Codeforces": { "content": "5" },
-            "Clasificatorio": { "content": "-" },
+            "Clasificatorio": { "content": "15", "position": "3" },
             "skips": false
         },
         {
@@ -18,7 +18,7 @@
             "Nac. AdaByron": { "content": "10", "position":"7" },
             "Curso CP": { "content": "5" },
             "Codeforces": { "content": "5" },
-            "Clasificatorio": { "content": "-" },
+            "Clasificatorio": { "content": "20", "position": "2" },
             "skips": false
         },
         {
@@ -238,7 +238,7 @@
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
             "Codeforces": { "content": "7" },
-            "Clasificatorio": { "content": "-" },
+            "Clasificatorio": { "content": "C", "position": "1" },
             "skips": false
         },
 		{
