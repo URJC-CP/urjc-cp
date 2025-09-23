@@ -1,9 +1,14 @@
 const classifiedStyle = "background-color: green; color: white;";
 const skipsStyle = "background-color: orange; color: white;";
-const max_classified = 6;
 
 function calcularPuntos(data) {
     data.rows.forEach(row => {
+        // Check for "C" in Clasificatorio
+        if (row.Clasificatorio.content === "C") {
+            row.Clasificatorio.content = "CLASIFICADO";
+            row.Puntos = { content: "CLASIFICADO" };
+            return;
+        }
         row.Puntos = { content: 0 };
         let puntos = 0;
         ["Clasificatorio", "Codeforces", "Curso CP", "Nac. AdaByron", "Reg. AdaByron", "12Uvas"].forEach(field => {
@@ -35,6 +40,12 @@ function sortRanking(data) {
     };
 
     data.rows.sort((a, b) => {
+        // 0. "CLASIFICADO" always first
+        const aClasificado = a.Puntos && a.Puntos.content === "CLASIFICADO";
+        const bClasificado = b.Puntos && b.Puntos.content === "CLASIFICADO";
+        if (aClasificado && !bClasificado) return -1;
+        if (!aClasificado && bClasificado) return 1;
+
         // 1. Compare "Puntos" (Descending)
         const puntosDiff = (getContent(b.Puntos) || 0) - (getContent(a.Puntos) || 0);
         if (puntosDiff !== 0) return puntosDiff;
@@ -111,7 +122,7 @@ function crearTablaDesdeJSON(data) {
             if (header == "Nombre") {
                 if (row.skips) 
                     td.setAttribute('style', skipsStyle);
-                else if (header == "Nombre" && classified < max_classified) {
+                else if (header == "Nombre" && classified < num_classified) {
                     td.setAttribute('style', classifiedStyle);
                     classified++;
                 }
@@ -126,7 +137,7 @@ function crearTablaDesdeJSON(data) {
     return table;
 }
 
-function loadRankingData(ranking_name) {
+function loadRankingData(ranking_name, num_classified=6) {
     const container = document.querySelector('table#clasificacion');
     // load data from JSON in file
     let ranking = null;
@@ -136,7 +147,7 @@ function loadRankingData(ranking_name) {
             ranking = data;
             calcularPuntos(ranking);
             sortRanking(ranking);
-            const tabla = crearTablaDesdeJSON(data);
+            const tabla = crearTablaDesdeJSON(data, num_classified);
             container.appendChild(tabla);
         });
 }
