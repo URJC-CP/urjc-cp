@@ -3,6 +3,12 @@ const skipsStyle = "background-color: orange; color: white;";
 
 function calcularPuntos(data) {
     data.rows.forEach(row => {
+        // Check for "C" in Clasificatorio
+        if (row.Clasificatorio.content === "C") {
+            row.Clasificatorio.content = "CLASIFICADO";
+            row.Puntos = { content: "CLASIFICADO" };
+            return;
+        }
         row.Puntos = { content: 0 };
         let puntos = 0;
         ["Clasificatorio", "Codeforces", "Curso CP", "Nac. AdaByron", "Reg. AdaByron", "12Uvas"].forEach(field => {
@@ -34,6 +40,12 @@ function sortRanking(data) {
     };
 
     data.rows.sort((a, b) => {
+        // 0. "CLASIFICADO" always first
+        const aClasificado = a.Puntos && a.Puntos.content === "CLASIFICADO";
+        const bClasificado = b.Puntos && b.Puntos.content === "CLASIFICADO";
+        if (aClasificado && !bClasificado) return -1;
+        if (!aClasificado && bClasificado) return 1;
+
         // 1. Compare "Puntos" (Descending)
         const puntosDiff = (getContent(b.Puntos) || 0) - (getContent(a.Puntos) || 0);
         if (puntosDiff !== 0) return puntosDiff;
