@@ -8,7 +8,7 @@
             "Nac. AdaByron": { "content": "10", "position":"7" },
             "Curso CP": { "content": "5" },
             "Codeforces": { "content": "5" },
-            "Clasificatorio": { "content": "" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
         {
@@ -18,7 +18,7 @@
             "Nac. AdaByron": { "content": "10", "position":"7" },
             "Curso CP": { "content": "5" },
             "Codeforces": { "content": "5" },
-            "Clasificatorio": { "content": "" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
         {
@@ -28,7 +28,7 @@
             "Nac. AdaByron": { "content": "10", "position":"7" },
             "Curso CP": { "content": "5" },
             "Codeforces": { "content": "5" },
-            "Clasificatorio": { "content": "" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
         {
@@ -38,7 +38,7 @@
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
             "Codeforces": { "content": "2" },
-            "Clasificatorio": { "content": "" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
         {
@@ -48,7 +48,7 @@
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
             "Codeforces": { "content": "2" },
-            "Clasificatorio": { "content": "" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
         {
@@ -58,7 +58,7 @@
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "-" },
             "Codeforces": { "content": "2" },
-            "Clasificatorio": { "content": "" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
         {
@@ -68,7 +68,7 @@
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
             "Codeforces": { "content": "3" },
-            "Clasificatorio": { "content": "" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
         {
@@ -78,7 +78,7 @@
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "-" },
             "Codeforces": { "content": "1" },
-            "Clasificatorio": { "content": "" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
         {
@@ -87,8 +87,8 @@
             "Reg. AdaByron": { "content": "10", "position":"4" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
         {
@@ -97,8 +97,8 @@
             "Reg. AdaByron": { "content": "10", "position":"4" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
         {
@@ -107,8 +107,8 @@
             "Reg. AdaByron": { "content": "10", "position":"4" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
         {
@@ -117,8 +117,8 @@
             "Reg. AdaByron": { "content": "10", "position":"6" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "-" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
         {
@@ -127,8 +127,8 @@
             "Reg. AdaByron": { "content": "10", "position":"6" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "-" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
         {
@@ -137,8 +137,8 @@
             "Reg. AdaByron": { "content": "10", "position":"6" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "-" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
         {
@@ -147,8 +147,8 @@
             "Reg. AdaByron": { "content": "10", "position":"7" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "-" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
         {
@@ -157,8 +157,8 @@
             "Reg. AdaByron": { "content": "10", "position":"7" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "-" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -167,8 +167,8 @@
             "Reg. AdaByron": { "content": "10", "position":"8" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -177,8 +177,8 @@
             "Reg. AdaByron": { "content": "10", "position":"8" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -187,8 +187,8 @@
             "Reg. AdaByron": { "content": "10", "position":"9" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -197,8 +197,8 @@
             "Reg. AdaByron": { "content": "10", "position":"9" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "-" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -208,7 +208,7 @@
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
             "Codeforces": { "content": "2" },
-            "Clasificatorio": { "content": "" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -217,8 +217,8 @@
             "Reg. AdaByron": { "content": "10", "position":"10" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -227,8 +227,8 @@
             "Reg. AdaByron": { "content": "10", "position":"10" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -238,7 +238,7 @@
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
             "Codeforces": { "content": "7" },
-            "Clasificatorio": { "content": "" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -247,8 +247,8 @@
             "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -257,8 +257,8 @@
             "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -267,8 +267,8 @@
             "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -277,8 +277,8 @@
             "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -287,8 +287,8 @@
             "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -297,8 +297,8 @@
             "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -307,8 +307,8 @@
             "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -317,8 +317,8 @@
             "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -327,8 +327,8 @@
             "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -337,8 +337,8 @@
             "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -347,8 +347,8 @@
             "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -357,8 +357,8 @@
             "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -367,8 +367,8 @@
             "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -377,8 +377,8 @@
             "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -387,8 +387,8 @@
             "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -397,8 +397,8 @@
             "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -407,8 +407,8 @@
             "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "" },
-            "Clasificatorio": { "content": "" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -418,7 +418,7 @@
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "-" },
             "Codeforces": { "content": "2" },
-            "Clasificatorio": { "content": "" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         },
 		{
@@ -428,7 +428,7 @@
             "Nac. AdaByron": { "content": "-" },
             "Curso CP": { "content": "-" },
             "Codeforces": { "content": "1" },
-            "Clasificatorio": { "content": "" },
+            "Clasificatorio": { "content": "-" },
             "skips": false
         }
     ]
