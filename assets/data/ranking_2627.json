@@ -1,6 +1,35 @@
 {
     "headers": [ "Nombre", "12Uvas", "Reg. AdaByron", "Nac. AdaByron", "Curso CP", "Codeforces", "Clasificatorio", "Puntos" ],
     "rows": [
-        
+        {
+            "Nombre": { "content": "Iván Coello Rivera" },
+            "12Uvas": { "content": "5", "position":"50"},
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "-" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Jose Manuel Fernández Moreno" },
+            "12Uvas": { "content": "5", "position":"73"},
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "-" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Iván Dorado Alegria" },
+            "12Uvas": { "content": "5", "position":"130"},
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "-" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-" },
+            "skips": false
+        }
     ]
 }
