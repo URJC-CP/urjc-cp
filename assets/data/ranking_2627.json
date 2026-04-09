@@ -54,7 +54,7 @@
         {
             "Nombre": { "content": "Álvaro Merinero González" },
             "12Uvas": { "content": "-" },
-            "Reg. AdaByron": { "content": "10", "position":"-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-", "position":"-" },
             "Curso CP": { "content": "5" },
             "Codeforces": { "content": "-" },
@@ -74,7 +74,7 @@
         {
             "Nombre": { "content": "Daniel Montes Jiménez" },
             "12Uvas": { "content": "-" },
-            "Reg. AdaByron": { "content": "10", "position":"-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-", "position":"-" },
             "Curso CP": { "content": "5" },
             "Codeforces": { "content": "-" },
@@ -104,7 +104,7 @@
         {
             "Nombre": { "content": "David Constantin Margarint" },
             "12Uvas": { "content": "-" },
-            "Reg. AdaByron": { "content": "10", "position":"-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-", "position":"-" },
             "Curso CP": { "content": "5" },
             "Codeforces": { "content": "-" },
@@ -114,7 +114,7 @@
         {
             "Nombre": { "content": "Gabriel De Miguel García" },
             "12Uvas": { "content": "-" },
-            "Reg. AdaByron": { "content": "10", "position":"-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-", "position":"-" },
             "Curso CP": { "content": "5" },
             "Codeforces": { "content": "-" },
@@ -164,7 +164,7 @@
         {
             "Nombre": { "content": "Jose Barrios Peguero" },
             "12Uvas": { "content": "-" },
-            "Reg. AdaByron": { "content": "10", "position":"-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-", "position":"-" },
             "Curso CP": { "content": "5" },
             "Codeforces": { "content": "-" },
@@ -174,7 +174,7 @@
         {
             "Nombre": { "content": "Laura Alejandra Sánchez Fernández" },
             "12Uvas": { "content": "-" },
-            "Reg. AdaByron": { "content": "10", "position":"-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-", "position":"-" },
             "Curso CP": { "content": "5" },
             "Codeforces": { "content": "-" },
@@ -244,7 +244,7 @@
         {
             "Nombre": { "content": "Rafael Sánchez Vaquero" },
             "12Uvas": { "content": "-" },
-            "Reg. AdaByron": { "content": "10", "position":"-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-", "position":"-" },
             "Curso CP": { "content": "5" },
             "Codeforces": { "content": "-" },
