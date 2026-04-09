@@ -156,7 +156,7 @@
             "12Uvas": { "content": "-" },
             "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-", "position":"-" },
-            "Curso CP": { "content": "-" },
+            "Curso CP": { "content": "5" },
             "Codeforces": { "content": "-" },
             "Clasificatorio": { "content": "-", "position": "-" },
             "skips": false
