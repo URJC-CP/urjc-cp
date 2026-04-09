@@ -17,7 +17,7 @@
             "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-", "position":"-" },
             "Curso CP": { "content": "-" },
-            "Codeforces": { "content": "-" },
+            "Codeforces": { "content": "3" },
             "Clasificatorio": { "content": "-", "position": "-" },
             "skips": false
         },
@@ -277,7 +277,7 @@
             "Reg. AdaByron": { "content": "-", "position":"-" },
             "Nac. AdaByron": { "content": "-", "position":"-" },
             "Curso CP": { "content": "-" },
-            "Codeforces": { "content": "-" },
+            "Codeforces": { "content": "3" },
             "Clasificatorio": { "content": "-", "position": "-" },
             "skips": false
         }
