@@ -30,6 +30,256 @@
             "Codeforces": { "content": "-" },
             "Clasificatorio": { "content": "-" },
             "skips": false
+        },
+        {
+            "Nombre": { "content": "Alberto Saoner Plomer" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "-" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Alejandro González Blanco" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "-" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Álvaro Merinero González" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "5" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Christian Perea Reina" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "-" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Daniel Montes Jiménez" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "5" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Daniel Quijano Alonso" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "-" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "David Arévalo Rey" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "5" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "David Constantin Margarint" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "5" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Gabriel De Miguel García" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "5" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Héctor Muré Galán" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "-" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Ivo Hagemann Martínez" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "-" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Iván Gómez Molano" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "5" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Jorge Camacho Mejías" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "-" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Jose Barrios Peguero" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "5" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Laura Alejandra Sánchez Fernández" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "5" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Manuel Rey Carbonell" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "-" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Marcos Laorga Sagaseta De Ilurdoz" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "-" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Mengying Xia Ruan" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "-" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Olga Somalo Serrano" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "5" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Pablo Sainz López" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "-" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Pietro Guillén Ferreira" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "-" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Rafael Sánchez Vaquero" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "5" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Raúl Luaces Salamanca" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "-" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Sergio Rodríguez Palomo" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "-" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Weisheng Zheng" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "-" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
         }
     ]
 }
