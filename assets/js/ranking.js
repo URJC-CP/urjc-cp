@@ -109,6 +109,7 @@ function crearTablaDesdeJSON(data) {
 
     // Crear filas de datos
     let classified = 0;
+    let pending = 0;
     data.rows.forEach(row => {
         const tr = document.createElement('tr');
         data.headers.forEach(header => {
@@ -120,11 +121,14 @@ function crearTablaDesdeJSON(data) {
                 td.innerHTML += ` (${cellData.position})`;
             }
             if (header == "Nombre") {
-                if (row.skips) 
+                if (row.skips)
                     td.setAttribute('style', skipsStyle);
-                else if (header == "Nombre" && classified < num_classified) {
+                else if (classified < num_classified) {
                     td.setAttribute('style', classifiedStyle);
                     classified++;
+                } else if (pending < num_pending) {
+                    td.setAttribute('style', skipsStyle);
+                    pending++;
                 }
             }
 
@@ -137,7 +141,7 @@ function crearTablaDesdeJSON(data) {
     return table;
 }
 
-function loadRankingData(ranking_name, num_classified=6) {
+function loadRankingData(ranking_name, num_classified=6, num_pending=0) {
     const container = document.querySelector('table#clasificacion');
     // load data from JSON in file
     let ranking = null;
