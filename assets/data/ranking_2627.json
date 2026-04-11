@@ -46,7 +46,7 @@
             "12Uvas": { "content": "-" },
             "Reg. AdaByron": { "content": "10", "position":"-" },
             "Nac. AdaByron": { "content": "-", "position":"-" },
-            "Curso CP": { "content": "-" },
+            "Curso CP": { "content": "5" },
             "Codeforces": { "content": "-" },
             "Clasificatorio": { "content": "-", "position": "-" },
             "skips": false
@@ -66,7 +66,7 @@
             "12Uvas": { "content": "-" },
             "Reg. AdaByron": { "content": "10", "position":"-" },
             "Nac. AdaByron": { "content": "-", "position":"-" },
-            "Curso CP": { "content": "-" },
+            "Curso CP": { "content": "5" },
             "Codeforces": { "content": "-" },
             "Clasificatorio": { "content": "-", "position": "-" },
             "skips": false
@@ -86,7 +86,7 @@
             "12Uvas": { "content": "-" },
             "Reg. AdaByron": { "content": "10", "position":"-" },
             "Nac. AdaByron": { "content": "-", "position":"-" },
-            "Curso CP": { "content": "-" },
+            "Curso CP": { "content": "5" },
             "Codeforces": { "content": "-" },
             "Clasificatorio": { "content": "-", "position": "-" },
             "skips": false
@@ -186,7 +186,7 @@
             "12Uvas": { "content": "-" },
             "Reg. AdaByron": { "content": "10", "position":"-" },
             "Nac. AdaByron": { "content": "-", "position":"-" },
-            "Curso CP": { "content": "-" },
+            "Curso CP": { "content": "5" },
             "Codeforces": { "content": "-" },
             "Clasificatorio": { "content": "-", "position": "-" },
             "skips": false
@@ -287,6 +287,56 @@
             "Reg. AdaByron": { "content": "10", "position":"-" },
             "Nac. AdaByron": { "content": "-", "position":"-" },
             "Curso CP": { "content": "-" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Javier Almendro Mirat" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "5" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Ricardo Michael Sucunuta Macas" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "5" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Iván Canosa Delgado" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "5" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Pablo Picurelli Ortiz" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "5" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Jonathan Javier Flores Naranjo" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "5" },
             "Codeforces": { "content": "-" },
             "Clasificatorio": { "content": "-", "position": "-" },
             "skips": false
