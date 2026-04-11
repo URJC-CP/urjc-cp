@@ -5,7 +5,7 @@
             "Nombre": { "content": "Iván Coello Rivera" },
             "12Uvas": { "content": "5", "position":"50"},
             "Reg. AdaByron": { "content": "10", "position":"-" },
-            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "10", "position":"-" },
             "Curso CP": { "content": "-" },
             "Codeforces": { "content": "-" },
             "Clasificatorio": { "content": "-", "position": "-" },
@@ -15,7 +15,7 @@
             "Nombre": { "content": "Jose Manuel Fernández Moreno" },
             "12Uvas": { "content": "5", "position":"73"},
             "Reg. AdaByron": { "content": "10", "position":"-" },
-            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "10", "position":"-" },
             "Curso CP": { "content": "-" },
             "Codeforces": { "content": "3" },
             "Clasificatorio": { "content": "-", "position": "-" },
@@ -282,16 +282,6 @@
             "skips": false
         },
         {
-            "Nombre": { "content": "Marouane Fakchich" },
-            "12Uvas": { "content": "-" },
-            "Reg. AdaByron": { "content": "10", "position":"-" },
-            "Nac. AdaByron": { "content": "-", "position":"-" },
-            "Curso CP": { "content": "-" },
-            "Codeforces": { "content": "-" },
-            "Clasificatorio": { "content": "-", "position": "-" },
-            "skips": false
-        },
-        {
             "Nombre": { "content": "Javier Almendro Mirat" },
             "12Uvas": { "content": "-" },
             "Reg. AdaByron": { "content": "-", "position":"-" },
@@ -345,7 +335,7 @@
             "Nombre": { "content": "Nihad Rbaa Hmini" },
             "12Uvas": { "content": "-" },
             "Reg. AdaByron": { "content": "10", "position":"-" },
-            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "10", "position":"-" },
             "Curso CP": { "content": "-" },
             "Codeforces": { "content": "-" },
             "Clasificatorio": { "content": "-", "position": "-" },
