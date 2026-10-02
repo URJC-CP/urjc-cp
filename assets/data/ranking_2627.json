@@ -7,7 +7,7 @@
             "Reg. AdaByron": { "content": "10", "position":"2" },
             "Nac. AdaByron": { "content": "10", "position":"-" },
             "Curso CP": { "content": "-" },
-            "Codeforces": { "content": "-" },
+            "Codeforces": { "content": "3" },
             "Clasificatorio": { "content": "-", "position": "-" },
             "skips": false
         },
@@ -182,16 +182,6 @@
             "skips": false
         },
         {
-            "Nombre": { "content": "Olga Somalo Serrano" },
-            "12Uvas": { "content": "-" },
-            "Reg. AdaByron": { "content": "10", "position":"13" },
-            "Nac. AdaByron": { "content": "-", "position":"-" },
-            "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "-" },
-            "Clasificatorio": { "content": "-", "position": "-" },
-            "skips": false
-        },
-        {
             "Nombre": { "content": "Pablo Sainz López" },
             "12Uvas": { "content": "-" },
             "Reg. AdaByron": { "content": "10", "position":"21" },
@@ -267,7 +257,7 @@
             "Reg. AdaByron": { "content": "10", "position":"34" },
             "Nac. AdaByron": { "content": "-", "position":"-" },
             "Curso CP": { "content": "5" },
-            "Codeforces": { "content": "-" },
+            "Codeforces": { "content": "2" },
             "Clasificatorio": { "content": "-", "position": "-" },
             "skips": false
         },
