@@ -141,7 +141,7 @@ function crearTablaDesdeJSON(data) {
     return table;
 }
 
-function loadRankingData(ranking_name, num_classified=6, num_pending=0) {
+function loadRankingData(ranking_name, num_classified=3, num_pending=0) {
     const container = document.querySelector('table#clasificacion');
     // load data from JSON in file
     let ranking = null;

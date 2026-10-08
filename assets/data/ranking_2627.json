@@ -8,7 +8,7 @@
             "Nac. AdaByron": { "content": "10", "position":"-" },
             "Curso CP": { "content": "-" },
             "Codeforces": { "content": "3" },
-            "Clasificatorio": { "content": "-", "position": "-" },
+            "Clasificatorio": { "content": "C", "position": "1" },
             "skips": false
         },
         {
@@ -18,7 +18,7 @@
             "Nac. AdaByron": { "content": "10", "position":"-" },
             "Curso CP": { "content": "-" },
             "Codeforces": { "content": "3" },
-            "Clasificatorio": { "content": "-", "position": "-" },
+            "Clasificatorio": { "content": "20", "position": "2" },
             "skips": false
         },
         {
@@ -258,7 +258,7 @@
             "Nac. AdaByron": { "content": "-", "position":"-" },
             "Curso CP": { "content": "5" },
             "Codeforces": { "content": "2" },
-            "Clasificatorio": { "content": "-", "position": "-" },
+            "Clasificatorio": { "content": "15", "position": "3" },
             "skips": false
         },
         {
@@ -299,6 +299,16 @@
             "Curso CP": { "content": "5" },
             "Codeforces": { "content": "-" },
             "Clasificatorio": { "content": "-", "position": "-" },
+            "skips": false
+        },
+        {
+            "Nombre": { "content": "Víctor Manuel Martínez Severiano" },
+            "12Uvas": { "content": "-" },
+            "Reg. AdaByron": { "content": "-", "position":"-" },
+            "Nac. AdaByron": { "content": "-", "position":"-" },
+            "Curso CP": { "content": "-" },
+            "Codeforces": { "content": "-" },
+            "Clasificatorio": { "content": "15", "position": "3" },
             "skips": false
         }
     ]
