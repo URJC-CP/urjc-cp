@@ -108,7 +108,7 @@ function crearTablaDesdeJSON(data) {
     table.appendChild(thead);
 
     // Crear filas de datos
-    let classified = 0;
+    let classified = 3;
     let pending = 0;
     data.rows.forEach(row => {
         const tr = document.createElement('tr');
